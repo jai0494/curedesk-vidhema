@@ -1,17 +1,12 @@
 // src/components/Navbar.tsx
-import React, { useState } from 'react';
+import React from 'react';
 import { menuItems } from '../json/menuItems';
-import { ArrowDropDown } from '@mui/icons-material';
 
 const Navbar: React.FC = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setDropdownOpen((prev) => !prev);
-  };
+  
 
   return (
-    <header className="py-2 bg-white fixed top-0 left-0 right-0 z-50 border-solid border-[0px_0px_1px_0px] border-[#D7D7D754]">
+    <header className="py-2 bg-white fixed shadow-md top-0 left-0 right-0 z-50 border-solid border-[0px_0px_1px_0px] border-[#D7D7D754]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between p-4">
             {/* Logo */}
