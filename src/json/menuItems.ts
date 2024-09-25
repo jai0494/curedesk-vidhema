@@ -4,7 +4,7 @@ export const menuItems = [
       name: "Healthray Products",
       path: "/services",
       dropdown: [
-        { name: "Hospital Information Management System (HIMS)", path: "/services/service1" },
+        { name: "Hospital Information Management System (HIMS)", path: "/services/hospital-information-management-system" },
         { name: "Service 2", path: "/services/service2" },
         { name: "Service 3", path: "/services/service3" },
       ],

@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import './App.css';
 import Footer from './component/Footer';
+import Services from './pages/Services';
 const App: React.FC = () => {
   return (
     <Router>
@@ -16,6 +17,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services/hospital-information-management-system" element={<Services />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
