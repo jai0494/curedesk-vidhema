@@ -5,6 +5,7 @@ import TestimonialFeatures from './component/TestimonialFeatures'
 import SectionWithImagesAndContent from './component/SectionWithImagesAndContent'
 import FAQsSection from './component/FAQsSection'
 import HealthSection from './component/HealthSection'
+import Footer from './component/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <TestimonialFeatures />
       <SectionWithImagesAndContent />
       <FAQsSection />
+      <Footer />
     </>
   )
 }
