@@ -7,6 +7,7 @@ import Form from './component/Form'
 import SecondaryFeatures from './component/SecondaryFeatures'
 import TestimonialFeatures from './component/TestimonialFeatures'
 import SectionWithImagesAndContent from './component/SectionWithImagesAndContent'
+import FAQsSection from './component/FAQsSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +32,7 @@ function App() {
       <SecondaryFeatures />
       <TestimonialFeatures />
       <SectionWithImagesAndContent />
+      <FAQsSection />
     </>
   )
 }
