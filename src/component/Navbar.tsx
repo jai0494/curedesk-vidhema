@@ -1,6 +1,7 @@
 // src/components/Navbar.tsx
 import React from 'react';
 import { menuItems } from '../json/menuItems';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   
@@ -16,23 +17,26 @@ const Navbar: React.FC = () => {
             <div className="relative mx-auto">
                 <ul className="flex space-x-6">
                 {menuItems.map((item) => (
-                    <li key={item.name} className="text-gray-500 relative group cursor-pointer">
+                    <li key={item.name} className="text-gray-500 relative group cursor-pointer font-nunito">
                     {item.dropdown ? (
                         <>
                         <span className="flex items-center">
-                            {item.name}
+                        <Link to={`${item.path}`} className="block w-full h-full">{item.name}</Link>
                         </span>
                         {/* Dropdown Menu */}
-                        <ul className="absolute left-0 mt-2 w-40 bg-white text-black shadow-lg rounded-lg z-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-300 ease-in-out">
+                        <ul className="absolute left-0 mt-2 w-60 bg-white text-black shadow-lg rounded-lg z-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-300 ease-in-out">
                             {item.dropdown.map((subItem) => (
-                            <li key={subItem.name} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                            <li key={subItem.name} className="px-4 py-2 hover:bg-gray-200 cursor-pointer font-nunito">
+                                <Link to={`${subItem.path}`} className="block w-full h-full">
                                 {subItem.name}
+                                </Link>
+                                
                             </li>
                             ))}
                         </ul>
                         </>
                     ) : (
-                        <span>{item.name}</span>
+                        <Link to={`${item.path}`} className="block w-full h-full">{item.name}</Link>
                     )}
                     </li>
                 ))}

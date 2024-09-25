@@ -5,14 +5,14 @@ const SecondaryFeatures: React.FC = () => {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="pb-14 pt-10 sm:pb-20 sm:pt-32 lg:pb-32"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+          <h2 className="font-display font-nunito text-3xl tracking-tight text-slate-900 sm:text-4xl font-bold">
+            Simplify everyday business tasks
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
+          <p className="mt-4 font-nunito text-lg tracking-tight text-slate-700">
             Because you’d probably be a little confused if we suggested you complicate your everyday business tasks instead.
           </p>
         </div>
@@ -38,8 +38,8 @@ const SecondaryFeatures: React.FC = () => {
                   />
                 </svg>
               </div>
-              <h3 className="mt-6 text-sm font-medium text-blue-600">Reporting</h3>
-              <p className="mt-2 font-display text-xl text-slate-900">
+              <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Reporting</h3>
+              <p className="mt-2 font-display text-xl text-slate-900 font-nunito">
                 Stay on top of things with always up-to-date reporting features.
               </p>
               <p className="mt-4 text-sm text-slate-600">
@@ -59,8 +59,8 @@ const SecondaryFeatures: React.FC = () => {
                   <path d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z" fill="#fff" />
                 </svg>
               </div>
-              <h3 className="mt-6 text-sm font-medium text-blue-600">Inventory</h3>
-              <p className="mt-2 font-display text-xl text-slate-900">
+              <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Inventory</h3>
+              <p className="mt-2 font-display text-xl text-slate-900 font-nunito">
                 Never lose track of what’s in stock with accurate inventory tracking.
               </p>
               <p className="mt-4 text-sm text-slate-600">
@@ -83,8 +83,8 @@ const SecondaryFeatures: React.FC = () => {
                   <path d="M12 28.395V28a6 6 0 0 1 12 0v.395A11.945 11.945 0 0 1 18 30c-2.186 0-4.235-.584-6-1.605ZM21 16.5c0-1.933-.5-3.5-3-3.5s-3 1.567-3 3.5 1.343 3.5 3 3.5 3-1.567 3-3.5Z" fill="#fff" />
                 </svg>
               </div>
-              <h3 className="mt-6 text-sm font-medium text-blue-600">Contacts</h3>
-              <p className="mt-2 font-display text-xl text-slate-900">
+              <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Contacts</h3>
+              <p className="mt-2 font-display text-xl text-slate-900 font-nunito">
                 Organize all of your contacts, service providers, and invoices in one place.
               </p>
               <p className="mt-4 text-sm text-slate-600">

@@ -5,12 +5,12 @@ const TestimonialFeatures: React.FC = () => {
     <section
     id="testimonials"
     aria-label="What our customers are saying"
-    className="bg-slate-50 py-20 sm:py-32"
+    className="bg-slate-50 py-10 sm:py-12"
   >
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-2xl md:text-center">
         <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-          Loved by businesses worldwide.
+          Loved by businesses worldwide
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Our software is so simple that people can’t help but fall in love with

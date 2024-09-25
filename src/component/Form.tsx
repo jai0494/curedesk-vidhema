@@ -26,19 +26,17 @@ const Form: React.FC = () => {
 
   return (
     <div className="mx-auto bg-white p-6 rounded-lg shadow-lg">
-      <h2 className="text-2xl font-bold mb-6 text-center">Contact Us</h2>
-
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Name Input */}
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+          <label htmlFor="name" className="font-nunito block text-sm font-medium text-gray-700">Name</label>
           <input
             type="text"
             name="name"
             id="name"
             value={formData.name}
             onChange={handleInputChange}
-            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 font-nunito text-slate-400 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Your Name"
             required
           />
@@ -46,14 +44,14 @@ const Form: React.FC = () => {
 
         {/* Email Input */}
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+          <label htmlFor="email" className="block font-nunito text-sm font-medium text-gray-700">Email</label>
           <input
             type="email"
             name="email"
             id="email"
             value={formData.email}
             onChange={handleInputChange}
-            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 font-nunito text-slate-400 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Your Email"
             required
           />
@@ -61,13 +59,13 @@ const Form: React.FC = () => {
 
         {/* Service Dropdown */}
         <div>
-          <label htmlFor="service" className="block text-sm font-medium text-gray-700">Service</label>
+          <label htmlFor="service" className="block font-nunito text-sm font-medium text-gray-700">Service</label>
           <select
             name="service"
             id="service"
             value={formData.service}
             onChange={handleInputChange}
-            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-400 font-nunito block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             required
           >
             <option value="">Select a Service</option>
@@ -81,13 +79,13 @@ const Form: React.FC = () => {
 
         {/* Category Dropdown */}
         <div>
-          <label htmlFor="category" className="block text-sm font-medium text-gray-700">Category</label>
+          <label htmlFor="category" className="font-nunito block text-sm font-medium text-gray-700">Category</label>
           <select
             name="category"
             id="category"
             value={formData.category}
             onChange={handleInputChange}
-            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-400 font-nunito block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             required
           >
             <option value="">Select a Category</option>
@@ -107,7 +105,7 @@ const Form: React.FC = () => {
             id="message"
             value={formData.message}
             onChange={handleInputChange}
-            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-400 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Your message here..."
             rows={4}
             required

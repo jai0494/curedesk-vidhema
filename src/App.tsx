@@ -1,28 +1,25 @@
-import './App.css'
-import Navbar from './component/Navbar'
-import SecondaryFeatures from './component/SecondaryFeatures'
-import TestimonialFeatures from './component/TestimonialFeatures'
-import SectionWithImagesAndContent from './component/SectionWithImagesAndContent'
-import FAQsSection from './component/FAQsSection'
-import HealthSection from './component/HealthSection'
-import Footer from './component/Footer'
-
-function App() {
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './component/Navbar';
+import Home from './pages/Home'; // Ensure you have these components created
+import About from './pages/About';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
+import './App.css';
+const App: React.FC = () => {
   return (
-    <>
-      <div>
-        <Navbar />
-        
+    <Router>
+      <Navbar />
+      <div className="pt-16"> {/* Adds padding to prevent content from being hidden behind the navbar */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </div>
-      <HealthSection />
-      <SecondaryFeatures />
-      <TestimonialFeatures />
-      <SectionWithImagesAndContent />
-      <FAQsSection />
-      <Footer />
-    </>
-  )
-}
+    </Router>
+  );
+};
 
-export default App
+export default App;
