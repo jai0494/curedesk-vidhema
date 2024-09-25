@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import './App.css';
+import Footer from './component/Footer';
 const App: React.FC = () => {
   return (
     <Router>
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 };

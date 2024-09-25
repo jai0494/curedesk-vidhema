@@ -135,7 +135,7 @@ const Contact: React.FC = () => {
           )}
         </div>
       </div>
-      <div className='bg-slate-50'>
+      <div className='bg-[#e6edff] p-[30px] pt-[20px] rounded-[30px] mt-10'>
 
       <KeyFeatureGrid />
       </div>
