@@ -1,4 +1,5 @@
 // HealthSection.jsx
+import { Link } from 'react-router-dom';
 import Form from './Form';
 
 const HealthSection = () => {
@@ -22,7 +23,7 @@ const HealthSection = () => {
           <div className="flex flex-wrap xl:items-center -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-white bg-blue-500 uppercase rounded-9xl" data-config-id="text11">
-                Located in London
+                Located in USA
               </span>
               <h1 className="mb-6 font-nunito text-3xl md:text-5xl lg:text-6xl leading-tight text-slate-900 font-bold tracking-tight" data-config-id="text9">
                 Your Health and Wellbeing, our Priority
@@ -46,7 +47,7 @@ const HealthSection = () => {
                     href="#"
                     data-config-id="text25"
                   >
-                    Book an appointment
+                    <Link to="/contact">Book an appointment</Link>
                   </a>
                 </div>
               </div>

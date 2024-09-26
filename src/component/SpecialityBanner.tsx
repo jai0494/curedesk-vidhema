@@ -15,7 +15,7 @@ const SpecialityBanner: React.FC<SpecialityBanner> = ({ heading }) =>  {
             {heading}
             </h1>
             <a
-              href="course-grid.html"
+              href="/contact"
               className="font-nunito inline-block py-2 px-4 w-full text-base md:text-lg leading-4 text-blue-500 font-medium text-center bg-slate-50 hover:bg-coolGray-800 focus:ring-2 focus:ring-coolGray-700 focus:ring-opacity-50 rounded-md shadow-sm max-w-[300px]"
             >
               Book Appointment <span className="icon"><i className="fa-solid fa-arrow-right-long"></i></span>

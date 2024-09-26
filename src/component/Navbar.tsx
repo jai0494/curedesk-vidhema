@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
   return (
     <header className="py-2 bg-white fixed shadow-md top-0 left-0 right-0 z-50 border-solid border-[0px_0px_1px_0px] border-[#D7D7D754]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center justify-between p-4">
+        <nav className="flex items-center justify-between p-4 pl-0 pr-0">
           {/* Logo */}
           <div className="text-gray-500 font-bold text-xl relative">
             <img src="/public/logo-light.svg" alt='Logo' className='h-[50px]' />
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
           {/* CTA Button */}
           <div>
             <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-              Call to Action
+            <Link to="/contact">Book Appointment</Link>
             </button>
           </div>
         </nav>

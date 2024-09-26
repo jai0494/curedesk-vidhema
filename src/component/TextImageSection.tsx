@@ -9,7 +9,7 @@ const TextImageSection = () => {
             Because you’d probably be a little confused if we suggested you complicate your everyday business tasks instead.
           </p>
       <img
-        src="https://healthray.com/wp-content/uploads/2024/04/All-in-one-solution-of-Healthray.webp" // Replace with your image URL
+        src="/public/All-in-one-solution-of-Healthray.webp" // Replace with your image URL
         alt="Descriptive Alt Text"
         className="w-full max-w-xl rounded-lg"
       />

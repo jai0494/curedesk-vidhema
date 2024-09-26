@@ -9,6 +9,8 @@ import './App.css';
 import Footer from './component/Footer';
 import Services from './pages/Services';
 import Speciality from './pages/Speciality';
+import ABHA from './pages/ABHA';
+import PMJAY from './pages/PMJAY';
 const App: React.FC = () => {
   return (
     <Router>
@@ -20,6 +22,8 @@ const App: React.FC = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services/hospital-information-management-system" element={<Services />} />
           <Route path="/speciality/gastroenterologists" element={<Speciality />} />
+          <Route path="/ABHA" element={<ABHA />} />
+          <Route path="/PMJAY" element={<PMJAY />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

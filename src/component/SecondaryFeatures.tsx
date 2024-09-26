@@ -10,7 +10,7 @@ const SecondaryFeatures: React.FC = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
-            Simplify everyday business tasks
+            The Future of Healthcare, Today
           </h2>
           <p className="mt-4 font-nunito text-lg tracking-tight text-slate-700">
             Because you’d probably be a little confused if we suggested you complicate your everyday business tasks instead.
@@ -39,7 +39,7 @@ const SecondaryFeatures: React.FC = () => {
                 </svg>
               </div>
               <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Reporting</h3>
-              <p className="mt-2 font-display text-xl text-slate-900 font-nunito">
+              <p className="mt-2 font-display text-xl text-slate-900 font-nunito font-bold">
                 Stay on top of things with always up-to-date reporting features.
               </p>
               <p className="mt-4 text-sm text-slate-600">
@@ -60,7 +60,7 @@ const SecondaryFeatures: React.FC = () => {
                 </svg>
               </div>
               <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Inventory</h3>
-              <p className="mt-2 font-display text-xl text-slate-900 font-nunito">
+              <p className="mt-2 font-display text-xl text-slate-900 font-nunito font-bold">
                 Never lose track of what’s in stock with accurate inventory tracking.
               </p>
               <p className="mt-4 text-sm text-slate-600">
@@ -84,7 +84,7 @@ const SecondaryFeatures: React.FC = () => {
                 </svg>
               </div>
               <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Contacts</h3>
-              <p className="mt-2 font-display text-xl text-slate-900 font-nunito">
+              <p className="mt-2 font-display text-xl text-slate-900 font-nunito font-bold">
                 Organize all of your contacts, service providers, and invoices in one place.
               </p>
               <p className="mt-4 text-sm text-slate-600">

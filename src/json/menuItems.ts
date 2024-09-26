@@ -5,8 +5,8 @@ export const menuItems = [
       path: "/services",
       dropdown: [
         { name: "Hospital Information Management System (HIMS)", path: "/services/hospital-information-management-system" },
-        { name: "Service 2", path: "/services/service2" },
-        { name: "Service 3", path: "/services/service3" },
+        { name: "EMR Software", path: "/services/emr-software" }, // Updated Service 2
+        { name: "EHR Software", path: "/services/ehr-software" }, // New entry for EHR Software
       ],
     },
     {
@@ -14,16 +14,16 @@ export const menuItems = [
       path: "/services",
       dropdown: [
         { name: "Gastroenterologists", path: "/speciality/gastroenterologists" },
-        { name: "Service 2", path: "/services/service2" },
-        { name: "Service 3", path: "/services/service3" },
+        { name: "Pulmonologist", path: "/speciality/pulmonologist" },
+        { name: "Gynecologist", path: "/speciality/Gynecologist" },
       ],
     },
     {
       name: "ABDM",
       path: "/services",
       dropdown: [
-        { name: "ABHA", path: "/services/service1" },
-        { name: "Service 2", path: "/services/service2" },
+        { name: "ABHA", path: "/ABHA" },
+        { name: "PMJAY", path: "/PMJAY" },
         { name: "Service 3", path: "/services/service3" },
       ],
     },

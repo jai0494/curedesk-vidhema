@@ -107,6 +107,52 @@ export const services = [
           "description": "Easy ordering and tracking of lab tests, biopsies, and other diagnostic procedures."
         }
       ]
+    },
+    {
+      "title": "About ABHA(Ayushman Bharat Health Account​​)",
+      "description": "Focused on achieving",
+      "image": "https://pixydrops.com/mediox-html/assets/images/why-choose/why-choose-3-1.jpg",
+      "learnMoreLink": "#",
+      "features": [
+        {
+          "icon": "check",
+          "title": "Templates to Streamline Your Workflow",
+          "description": "Templates for initial consultations, follow-up visits, and procedure notes"
+        },
+        {
+          "icon": "layers-2",
+          "title": "Update Profile",
+          "description": "Ability to easily update and maintain patient profiles"
+        },
+        {
+          "icon": "lock",
+          "title": "Efficient Lab Management",
+          "description": "Easy ordering and tracking of lab tests, biopsies, and other diagnostic procedures."
+        }
+      ]
+    },
+    {
+      "title": "Ayushman Bharath Yojana, Eligibility & Registration Online",
+      "description": "Focused on achieving",
+      "image": "https://pixydrops.com/mediox-html/assets/images/why-choose/why-choose-3-1.jpg",
+      "learnMoreLink": "#",
+      "features": [
+        {
+          "icon": "check",
+          "title": "Templates to Streamline Your Workflow",
+          "description": "Templates for initial consultations, follow-up visits, and procedure notes"
+        },
+        {
+          "icon": "layers-2",
+          "title": "Update Profile",
+          "description": "Ability to easily update and maintain patient profiles"
+        },
+        {
+          "icon": "lock",
+          "title": "Efficient Lab Management",
+          "description": "Easy ordering and tracking of lab tests, biopsies, and other diagnostic procedures."
+        }
+      ]
     }
   ]
   
@@ -118,6 +164,22 @@ export const services = [
       },
       "specialityBanner1": {
       "heading1": "Benefits Of Using EMR For Gastroenterologists"
+      },
+    },
+    "ABHA": {
+      "specialityBanner": {
+      "heading": "Ayushman Bharat Health Account​"
+      },
+      "specialityBanner1": {
+      "heading1": "What Are The Benefits Of An ABHA Health Card?"
+      },
+    },
+    "PMJAY": {
+      "specialityBanner": {
+      "heading": "PMJAY Scheme​"
+      },
+      "specialityBanner1": {
+      "heading1": "Benefits Of PM-JAY"
       },
     },
     "HMIS": {

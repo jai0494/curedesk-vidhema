@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {featuresSp} from './../json/dropdownData'; // Import JSON data
+import { featuresSp } from './../json/dropdownData'; // Import JSON data
 
 // Define the type for your features data
 interface FeatureItem {
@@ -16,32 +16,42 @@ interface FeaturesData {
   features: FeatureItem[];
 }
 
-const FeaturesSectionSpeciality: React.FC = () => {
-  const [features, setFeatures] = useState<FeaturesData[]>([]); // Use the defined type
+interface FeaturesSectionProps {
+  index: number; // New prop to select the feature set from the JSON
+}
+
+const FeaturesSectionSpeciality: React.FC<FeaturesSectionProps> = ({ index }) => {
+  const [features, setFeatures] = useState<FeaturesData | null>(null); // Use the defined type
 
   useEffect(() => {
     // Load features data from JSON
-    setFeatures(featuresSp);
-  }, []);
+    if (featuresSp[index]) {
+      setFeatures(featuresSp[index]);
+    }
+  }, [index]);
+
+  if (!features) {
+    return null; // Render nothing if features are not available
+  }
 
   return (
     <section id="features" className="py-20 active">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 items-center gap-6">
           <div className="flex items-center">
-            {/* Use the first item in the features array */}
-            <img src={features[0]?.image} className="h-[650px] rounded-xl mx-auto" alt="feature section" />
+            {/* Use the image from the selected feature set */}
+            <img src={features.image} className="h-[650px] rounded-xl mx-auto" alt="feature section" />
           </div>
 
           <div className="lg:ms-5 ms-8">
             <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950 text-blue-600 font-nunito">
-              {features[0]?.description}
+              {features.description} {/* Use the selected description */}
             </span>
             <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
-              {features[0]?.title}
+              {features.title} {/* Use the selected title */}
             </h2>
             <a
-              href={features[0]?.learnMoreLink}
+              href={features.learnMoreLink}
               className="font-nunito inline-flex items-center justify-center gap-3 text-sm font-medium text-black mt-6"
             >
               Learn More
@@ -55,7 +65,6 @@ const FeaturesSectionSpeciality: React.FC = () => {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                data-lucide="move-right"
                 className="lucide lucide-move-right"
               >
                 <path d="M18 8L22 12L18 16" />
@@ -64,7 +73,7 @@ const FeaturesSectionSpeciality: React.FC = () => {
             </a>
             <hr className="border-gray-200 my-6" />
 
-            {features[0]?.features.map((feature, index) => (
+            {features.features.map((feature, index) => (
               <div className="flex items-start gap-5 mt-8" key={index}>
                 <div>
                   <div className="w-12 h-12 rounded-full border border-dashed border-primary/40 bg-primary/10 flex items-center justify-center">
@@ -78,7 +87,6 @@ const FeaturesSectionSpeciality: React.FC = () => {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      data-lucide={feature.icon}
                       className={`lucide lucide-${feature.icon} text-base text-blue-600`}
                     >
                       {feature.icon === "check" && <path d="M20 6 9 17l-5-5" />}
