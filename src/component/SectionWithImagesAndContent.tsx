@@ -10,7 +10,7 @@ const SectionWithImagesAndContent = () => {
         <p className='font-nunito text-slate-500 mb-10 mt-5'>Our innovative ERP solution is designed to transform your healthcare practice. Streamline operations, improve patient care, and boost efficiency with a comprehensive platform that integrates financial management, patient records, inventory, and more. Experience the future of healthcare today.</p>
       <div className="flex flex-col lg:flex-row items-center mb-12">
         <img
-          src="/public/Healthray-Feature-hmis.webp"
+          src="/Healthray-Feature-hmis.webp"
           alt="Image 1"
           className="w-full lg:w-1/2 object-cover"
         />
@@ -26,7 +26,7 @@ const SectionWithImagesAndContent = () => {
       {/* Second div: Left content, right image */}
       <div className="flex flex-col lg:flex-row-reverse items-center mb-12">
         <img
-          src="/public/Healthray-Feature-hmis.webp"
+          src="/Healthray-Feature-hmis.webp"
           alt="Image 2"
           className="w-full lg:w-1/2 object-cover"
         />
@@ -42,7 +42,7 @@ const SectionWithImagesAndContent = () => {
       {/* Third div: Left image, right content */}
       <div className="flex flex-col lg:flex-row items-center">
         <img
-          src="/public/Healthray-Feature-hmis.webp"
+          src="/Healthray-Feature-hmis.webp"
           alt="Image 3"
           className="w-full lg:w-1/2 object-cover"
         />

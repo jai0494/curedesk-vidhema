@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
         <nav className="flex items-center justify-between p-4 pl-0 pr-0">
           {/* Logo */}
           <div className="text-gray-500 font-bold text-xl relative">
-            <img src="/public/logo-light.svg" alt='Logo' className='h-[50px]' />
+            <img src="/logo-light.svg" alt='Logo' className='h-[50px]' />
             <span className='font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[129px] text-[2rem]'>Curedesk</span>
           </div>
 

@@ -6,7 +6,7 @@ interface SpecialityBanner {
 
 const SpecialityBanner: React.FC<SpecialityBanner> = ({ heading }) =>  {
   return (
-    <section className="ed-2-cta overflow-hidden bg-blue-600 pt-[15px] md:pt-[40px] relative z-[1] before:absolute before:inset-0 before:bg-[url(/public/cta-2-vector.png)] before:bg-center before:bg-no-repeat before:bg-cover before:-z-[1]">
+    <section className="ed-2-cta overflow-hidden bg-blue-600 pt-[15px] md:pt-[40px] relative z-[1] before:absolute before:inset-0 before:bg-[url(/cta-2-vector.png)] before:bg-center before:bg-no-repeat before:bg-cover before:-z-[1]">
       <div className="mx-[19.7%] xxxl:mx-[14.7%] xxl:mx-[9.7%] xl:mx-[3.2%] md:mx-[15px]">
         <div className="flex md:flex-col gap-y-[15px] items-center justify-between pb-20 pt-20">
           {/* Text Section */}

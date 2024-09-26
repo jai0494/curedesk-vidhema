@@ -56,7 +56,7 @@ const TestimonialFeatures: React.FC = () => {
                       width="56"
                       height="56"
                       className="h-14 w-14 object-cover"
-                      src="/public/ashutosh-chaturvedi.jpg"
+                      src="/ashutosh-chaturvedi.jpg"
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -95,7 +95,7 @@ const TestimonialFeatures: React.FC = () => {
                       width="56"
                       height="56"
                       className="h-14 w-14 object-cover"
-                      src="/public/ashutosh-chaturvedi.jpg"
+                      src="/ashutosh-chaturvedi.jpg"
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -139,7 +139,7 @@ const TestimonialFeatures: React.FC = () => {
                       width="56"
                       height="56"
                       className="h-14 w-14 object-cover"
-                      src="/public/ashutosh-chaturvedi.jpg"
+                      src="/ashutosh-chaturvedi.jpg"
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -179,7 +179,7 @@ const TestimonialFeatures: React.FC = () => {
                       width="56"
                       height="56"
                       className="h-14 w-14 object-cover"
-                      src="/public/ashutosh-chaturvedi.jpg"
+                      src="/ashutosh-chaturvedi.jpg"
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -222,7 +222,7 @@ const TestimonialFeatures: React.FC = () => {
                       width="56"
                       height="56"
                       className="h-14 w-14 object-cover"
-                      src="/public/ashutosh-chaturvedi.jpg"
+                      src="/ashutosh-chaturvedi.jpg"
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -261,7 +261,7 @@ const TestimonialFeatures: React.FC = () => {
                       width="56"
                       height="56"
                       className="h-14 w-14 object-cover"
-                      src="/public/ashutosh-chaturvedi.jpg"
+                      src="/ashutosh-chaturvedi.jpg"
                       style={{ color: "transparent" }}
                     />
                   </div>

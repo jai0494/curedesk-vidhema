@@ -25,12 +25,12 @@ export const services = [
   ]
 
   export const clients  =[
-    { "src": "/public/amazon.svg", "alt": "Amazon Logo" },
-    { "src": "/public/amazon.svg", "alt": "Google Logo" },
-    { "src": "/public/amazon.svg", "alt": "Lenovo Logo" },
-    { "src": "/public/amazon.svg", "alt": "Paypal Logo" },
-    { "src": "/public/amazon.svg", "alt": "Shopify Logo" },
-    { "src": "/public/amazon.svg", "alt": "Spotify Logo" }
+    { "src": "/amazon.svg", "alt": "Amazon Logo" },
+    { "src": "/amazon.svg", "alt": "Google Logo" },
+    { "src": "/amazon.svg", "alt": "Lenovo Logo" },
+    { "src": "/amazon.svg", "alt": "Paypal Logo" },
+    { "src": "/amazon.svg", "alt": "Shopify Logo" },
+    { "src": "/amazon.svg", "alt": "Spotify Logo" }
   ]
 
 
@@ -59,25 +59,25 @@ export const services = [
   export const stats = [
     {
       id: 1,
-      image: '/public/stat-1.png',
+      image: '/stat-1.png',
       count: '25+',
       description: 'Year of experience',
     },
     {
       id: 2,
-      image: '/public/stat-1.png',
+      image: '/stat-1.png',
       count: '6,500+',
       description: 'Class Completed',
     },
     {
       id: 3,
-      image: '/public/stat-1.png',
+      image: '/stat-1.png',
       count: '100+',
       description: 'Experts Instructors',
     },
     {
       id: 4,
-      image: '/public/stat-1.png',
+      image: '/stat-1.png',
       count: '6,561+',
       description: 'Students Enrolled',
     },

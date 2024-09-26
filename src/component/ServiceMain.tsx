@@ -3,7 +3,7 @@ import Form from "./Form";
 const ServiceMain = () => {
   return (
     <section
-      className="relative pt-32 pb-32 overflow-x-hidden from-slate-500/10 bg-[url(/public/bg-1.png)] bg-no-repeat bg-cover active"
+      className="relative pt-32 pb-32 overflow-x-hidden from-slate-500/10 bg-[url(/bg-1.png)] bg-no-repeat bg-cover active"
       id="home"
     >
       <div className="mx-auto max-w-7xl">
