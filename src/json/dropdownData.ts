@@ -111,3 +111,19 @@ export const services = [
   ]
   
 
+  export const headingData = {
+    "page1": {
+      "specialityBanner": {
+      "heading": "Best EMR Software For Gastroenterologists"
+      },
+      "specialityBanner1": {
+      "heading1": "Benefits Of Using EMR For Gastroenterologists"
+      },
+    },
+    "page2": {
+      "specialityBanner1": {
+      "heading1": "Here's What The Best Hospital Management Information System Software Can Do HMIS"
+      },
+    }
+  } 
+
