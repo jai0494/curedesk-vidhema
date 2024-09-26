@@ -26,7 +26,7 @@ const KeyFeatureGrid = () => {
             <p className="font-nunito text-slate-400">{feature.description}</p>
           </div>
           <span className="icon mt-4">
-            <img className="object-contain" src={feature.icon} alt={feature.title} />
+            {/* <img className="object-contain" src={feature.icon} alt={feature.title} /> */}
           </span>
         </div>
       ))}
