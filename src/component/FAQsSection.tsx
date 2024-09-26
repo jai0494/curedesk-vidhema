@@ -8,7 +8,7 @@ const FAQsSection = () => {
       data-category="faqs-white-pattern"
       data-component-id="900595cb_03_awz"
       data-custom-component-id="514841"
-      className="py-24 bg-white"
+      className="py-12 bg-white"
       style={{
         backgroundImage: "url('flex-ui-assets/elements/pattern-white.svg')",
         backgroundPosition: 'center',
@@ -21,10 +21,10 @@ const FAQsSection = () => {
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-blue-500 bg-blue-100 font-medium rounded-full shadow-sm">
                 FAQ
               </span>
-              <h2 className="mb-4 text-4xl md:text-5xl leading-tight text-slate-900 font-bold tracking-tighter">
+              <h2 className="mb-4 text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
                 Frequently Asked Questions
               </h2>
-              <p className="text-lg md:text-xl text-slate-500 font-medium">
+              <p className="text-lg md:text-xl text-slate-500 font-medium font-nunito">
                 Our experts are specially trained to help people with chronic conditions like diabetes, obesity, heart disease, thyroid disease, osteoporosis, high blood pressure and more.
               </p>
             </div>

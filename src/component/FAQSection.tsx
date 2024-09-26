@@ -21,7 +21,6 @@ const FAQSection = () => {
   return (
     <section className="py-12 bg-white">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-300 pb-4">
@@ -29,7 +28,7 @@ const FAQSection = () => {
                 onClick={() => toggleAnswer(index)}
                 className="flex justify-between items-center cursor-pointer text-blue-500 hover:text-blue-600"
               >
-                <h3 className="text-xl font-bold">{faq.question}</h3>
+                <h3 className="text-xl font-bold font-nunito">{faq.question}</h3>
                 <svg
                   className={`transform transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`}
                   width="24"
@@ -41,7 +40,7 @@ const FAQSection = () => {
                 </svg>
               </a>
               {openIndex === index && (
-                <p className="mt-2 text-gray-600">{faq.answer}</p>
+                <p className="mt-2 text-gray-600 font-nunito">{faq.answer}</p>
               )}
             </div>
           ))}

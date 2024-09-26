@@ -9,7 +9,7 @@ const FeaturesCD = () => {
       <div className="max-w-7xl mx-auto relative">
         <div className=" text-center">
             <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Services</span>
-            <h2 className="text-3xl md:text-4xl/tight font-semibold text-black mt-4 font-nunito">Explore Our Health Information System's Revolutionary Features!</h2>
+            <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">Explore Our Health Information System's Revolutionary Features!</h2>
             <p className="text-base font-medium mt-4 text-slate-400 font-nunito mb-7">Seamless Solutions for Efficient Operations and Exceptional Patient Care</p>
         </div>
         <div className="flex">

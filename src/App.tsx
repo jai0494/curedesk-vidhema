@@ -8,6 +8,7 @@ import NotFound from './pages/NotFound';
 import './App.css';
 import Footer from './component/Footer';
 import Services from './pages/Services';
+import Speciality from './pages/Speciality';
 const App: React.FC = () => {
   return (
     <Router>
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services/hospital-information-management-system" element={<Services />} />
+          <Route path="/speciality/gastroenterologists" element={<Speciality />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

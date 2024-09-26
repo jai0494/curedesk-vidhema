@@ -5,11 +5,11 @@ const SecondaryFeatures: React.FC = () => {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-10 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="pb-14 pt-10 sm:pb-20 sm:pt-6 lg:pb-20"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display font-nunito text-3xl tracking-tight text-slate-900 sm:text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
             Simplify everyday business tasks
           </h2>
           <p className="mt-4 font-nunito text-lg tracking-tight text-slate-700">

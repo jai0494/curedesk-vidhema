@@ -54,5 +54,60 @@ export const services = [
       "image": "assets/images/tab3.jpg"
     }
   ]
+
+
+  export const stats = [
+    {
+      id: 1,
+      image: '/public/stat-1.png',
+      count: '25+',
+      description: 'Year of experience',
+    },
+    {
+      id: 2,
+      image: '/public/stat-1.png',
+      count: '6,500+',
+      description: 'Class Completed',
+    },
+    {
+      id: 3,
+      image: '/public/stat-1.png',
+      count: '100+',
+      description: 'Experts Instructors',
+    },
+    {
+      id: 4,
+      image: '/public/stat-1.png',
+      count: '6,561+',
+      description: 'Students Enrolled',
+    },
+  ];
+  
+
+  export const featuresSp = [
+    {
+      "title": "Why Choose Healthray's EMR For Gastroenterologists",
+      "description": "Focused on achieving",
+      "image": "https://pixydrops.com/mediox-html/assets/images/why-choose/why-choose-3-1.jpg",
+      "learnMoreLink": "#",
+      "features": [
+        {
+          "icon": "check",
+          "title": "Templates to Streamline Your Workflow",
+          "description": "Templates for initial consultations, follow-up visits, and procedure notes"
+        },
+        {
+          "icon": "layers-2",
+          "title": "Update Profile",
+          "description": "Ability to easily update and maintain patient profiles"
+        },
+        {
+          "icon": "lock",
+          "title": "Efficient Lab Management",
+          "description": "Easy ordering and tracking of lab tests, biopsies, and other diagnostic procedures."
+        }
+      ]
+    }
+  ]
   
 

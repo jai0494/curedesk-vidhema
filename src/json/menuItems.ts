@@ -13,7 +13,7 @@ export const menuItems = [
       name: "Speciality",
       path: "/services",
       dropdown: [
-        { name: "Gastroenterologists", path: "/services/service1" },
+        { name: "Gastroenterologists", path: "/speciality/gastroenterologists" },
         { name: "Service 2", path: "/services/service2" },
         { name: "Service 3", path: "/services/service3" },
       ],

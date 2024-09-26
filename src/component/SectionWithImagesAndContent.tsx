@@ -4,7 +4,7 @@ const SectionWithImagesAndContent = () => {
       {/* First div: Left image, right content */}
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
       <div className="mx-auto md:text-center">
-        <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl font-nunito font-bold">
+        <h2 className="font-display text-3xl tracking-tight text-slate-900 font-nunito font-bold sm:text-4xl md:max-w-[1000px] text-center">
           Loved by businesses worldwide
         </h2>
       <div className="flex flex-col lg:flex-row items-center mb-12">
@@ -14,8 +14,8 @@ const SectionWithImagesAndContent = () => {
           className="w-full lg:w-1/2 object-cover"
         />
         <div className="w-full lg:w-1/2 p-8 text-left">
-          <h2 className="text-3xl text-slate-900 font-bold mb-4">Left Image, Right Content</h2>
-          <p className="text-lg text-slate-600">
+          <h2 className="text-3xl text-slate-900 font-bold mb-4 font-nunito">Left Image, Right Content</h2>
+          <p className="text-lg text-slate-600 font-nunito">
             This is the content that goes on the right side of the first section.
             You can add any text, description, or even other components here.
           </p>
@@ -30,8 +30,8 @@ const SectionWithImagesAndContent = () => {
           className="w-full lg:w-1/2 object-cover"
         />
         <div className="w-full lg:w-1/2 p-8 text-left">
-          <h2 className="text-3xl text-slate-900 font-bold mb-4">Left Content, Right Image</h2>
-          <p className="text-lg text-slate-600">
+          <h2 className="text-3xl text-slate-900 font-bold mb-4 font-nunito">Left Content, Right Image</h2>
+          <p className="text-lg text-slate-600 font-nunito">
             In this section, the content is on the left, and the image is on the
             right. It alternates with the first section for visual variety.
           </p>
@@ -46,8 +46,8 @@ const SectionWithImagesAndContent = () => {
           className="w-full lg:w-1/2 object-cover"
         />
         <div className="w-full lg:w-1/2 p-8 text-left">
-          <h2 className="text-3xl text-slate-900 font-bold mb-4">Left Image, Right Content</h2>
-          <p className="text-lg text-slate-600">
+          <h2 className="text-3xl text-slate-900 font-bold mb-4 font-nunito">Left Image, Right Content</h2>
+          <p className="text-lg text-slate-600 font-nunito">
             This section repeats the layout of the first one, with the image on
             the left and content on the right.
           </p>

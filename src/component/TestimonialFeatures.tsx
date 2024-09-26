@@ -9,7 +9,7 @@ const TestimonialFeatures: React.FC = () => {
   >
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-2xl md:text-center">
-        <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+        <h2 className="font-display text-3xl tracking-tight text-slate-900 font-nunito font-bold sm:text-4xl md:max-w-[1000px] text-center">
           Loved by businesses worldwide
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
@@ -20,7 +20,7 @@ const TestimonialFeatures: React.FC = () => {
       </div>
       <ul
         role="list"
-        className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3"
+        className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-10 lg:max-w-none lg:grid-cols-3"
       >
         <li>
           <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">

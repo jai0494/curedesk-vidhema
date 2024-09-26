@@ -31,14 +31,14 @@ const Form: React.FC = () => {
       <form onSubmit={handleSubmit} className="flex flex-wrap justify-between ">
         {/* Doctor/Hospital Name Input */}
         <div className='flex-[0_0_49%] mb-3'>
-          <label htmlFor="doctorName" className="font-nunito block text-sm font-medium text-gray-700">Doctor/Hospital Name</label>
+          <label htmlFor="doctorName" className="font-nunito block text-sm font-bold text-gray-900">Doctor/Hospital Name</label>
           <input
             type="text"
             name="doctorName"
             id="doctorName"
             value={formData.doctorName}
             onChange={handleInputChange}
-            className="mt-1 font-nunito text-slate-400 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 font-nunito text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Doctor/Hospital Name"
             required
           />
@@ -46,7 +46,7 @@ const Form: React.FC = () => {
 
         {/* Speciality Dropdown */}
         <div className='flex-[0_0_49%] mb-3'>
-          <label htmlFor="speciality" className="font-nunito block text-sm font-medium text-gray-700">Speciality</label>
+          <label htmlFor="speciality" className="font-nunito block text-sm font-bold text-gray-900">Speciality</label>
           <select
             name="speciality"
             id="speciality"
@@ -66,7 +66,7 @@ const Form: React.FC = () => {
 
         {/* Mobile Input with Country Code */}
         <div className='flex-[0_0_49%] mb-3'>
-          <label htmlFor="mobile" className="font-nunito block text-sm font-medium text-gray-700">Mobile</label>
+          <label htmlFor="mobile" className="font-nunito block text-sm font-bold text-gray-900">Mobile</label>
           <div className="flex space-x-2">
             <select
               name="countryCode"
@@ -96,7 +96,7 @@ const Form: React.FC = () => {
 
         {/* Country Dropdown */}
         <div className='flex-[0_0_49%] mb-3'>
-          <label htmlFor="country" className="font-nunito block text-sm font-medium text-gray-700">Select Country</label>
+          <label htmlFor="country" className="font-nunito block text-sm font-bold text-gray-900">Select Country</label>
           <select
             name="country"
             id="country"
@@ -116,14 +116,14 @@ const Form: React.FC = () => {
 
         {/* Email Input */}
         <div className='flex-[0_0_49%] mb-3'>
-          <label htmlFor="email" className="font-nunito block text-sm font-medium text-gray-700">Email ID</label>
+          <label htmlFor="email" className="font-nunito block text-sm font-bold text-gray-900">Email ID</label>
           <input
             type="email"
             name="email"
             id="email"
             value={formData.email}
             onChange={handleInputChange}
-            className="mt-1 font-nunito text-slate-400 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 font-nunito text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Your Email"
             required
           />
@@ -131,21 +131,21 @@ const Form: React.FC = () => {
 
         {/* Website Input */}
         <div className='flex-[0_0_49%] mb-3'>
-          <label htmlFor="website" className="font-nunito block text-sm font-medium text-gray-700">Website</label>
+          <label htmlFor="website" className="font-nunito block text-sm font-bold text-gray-900">Website</label>
           <input
             type="url"
             name="website"
             id="website"
             value={formData.website}
             onChange={handleInputChange}
-            className="mt-1 font-nunito text-slate-400 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 font-nunito text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Your Website"
           />
         </div>
 
         {/* Business Type Dropdown */}
         <div className='flex-[0_0_100%] mb-3'>
-          <label htmlFor="businessType" className="font-nunito block text-sm font-medium text-gray-700">Business Type</label>
+          <label htmlFor="businessType" className="font-nunito block text-sm font-bold text-gray-900">Business Type</label>
           <select
             name="businessType"
             id="businessType"
@@ -165,7 +165,7 @@ const Form: React.FC = () => {
 
         {/* Message Textarea */}
         <div className='flex-[0_0_100%] mb-3'>
-          <label htmlFor="message" className="font-nunito block text-sm font-medium text-gray-700">Message</label>
+          <label htmlFor="message" className="font-nunito block text-sm font-bold text-gray-900">Message</label>
           <textarea
             name="message"
             id="message"
