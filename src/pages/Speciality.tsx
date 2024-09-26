@@ -7,8 +7,8 @@ import TrustedByCompanies from "../component/TrustedByCompanies";
 
 import {headingData} from '../json/dropdownData'
 const Speciality: React.FC = () => {
-  const { heading } = headingData.page1.specialityBanner;
-  const {heading1} = headingData.page1.specialityBanner1;
+  const { heading } = headingData.Gastroenterologists.specialityBanner;
+  const {heading1} = headingData.Gastroenterologists.specialityBanner1;
   return (
     <div>
         <SpecialityBanner heading={heading} />

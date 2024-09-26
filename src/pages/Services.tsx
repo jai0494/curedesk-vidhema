@@ -6,7 +6,7 @@ import TrustedByCompanies from "../component/TrustedByCompanies";
 import {headingData} from '../json/dropdownData'
 
 const Services: React.FC = () => {
-  const {heading1} = headingData.page2.specialityBanner1;
+  const {heading1} = headingData.HMIS.specialityBanner1;
     return (
       <div className='px-4'>
 
