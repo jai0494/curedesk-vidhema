@@ -11,9 +11,14 @@ import Services from './pages/Services';
 import Speciality from './pages/Speciality';
 import ABHA from './pages/ABHA';
 import PMJAY from './pages/PMJAY';
+import ScrollToTop from './component/ScrollToTop';
+import EMRSoftware from './pages/EMRSoftware';
+import EHRSoftware from './pages/EHRSoftware';
+import EHRSoftwareIndia from './pages/EHRSoftwareIndia';
 const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <div className="pt-16"> {/* Adds padding to prevent content from being hidden behind the navbar */}
         <Routes>
@@ -21,9 +26,12 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services/hospital-information-management-system" element={<Services />} />
+          <Route path="/services/EMRSoftware" element={<EMRSoftware />} />
+          <Route path="/services/EHRSoftware" element={<EHRSoftware />} />
           <Route path="/speciality/gastroenterologists" element={<Speciality />} />
           <Route path="/ABHA" element={<ABHA />} />
           <Route path="/PMJAY" element={<PMJAY />} />
+          <Route path="/EHRSoftwareIndia" element={<EHRSoftwareIndia />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

@@ -153,6 +153,29 @@ export const services = [
           "description": "Easy ordering and tracking of lab tests, biopsies, and other diagnostic procedures."
         }
       ]
+    },
+    {
+      "title": "Curedesk: Leading the Healthcare Revolution",
+      "description": "Focused on achieving",
+      "image": "https://pixydrops.com/mediox-html/assets/images/why-choose/why-choose-3-1.jpg",
+      "learnMoreLink": "#",
+      "features": [
+        {
+          "icon": "check",
+          "title": "Templates to Streamline Your Workflow",
+          "description": "Templates for initial consultations, follow-up visits, and procedure notes"
+        },
+        {
+          "icon": "layers-2",
+          "title": "Update Profile",
+          "description": "Ability to easily update and maintain patient profiles"
+        },
+        {
+          "icon": "lock",
+          "title": "Efficient Lab Management",
+          "description": "Easy ordering and tracking of lab tests, biopsies, and other diagnostic procedures."
+        }
+      ]
     }
   ]
   
@@ -182,10 +205,45 @@ export const services = [
       "heading1": "Benefits Of PM-JAY"
       },
     },
+    "About": {
+      "specialityBanner": {
+      "heading": "Curious about Curedesk?​"
+      },
+      "specialityBanner1": {
+      "heading1": "Benefits Of Curedesk"
+      },
+    },
     "HMIS": {
       "specialityBanner1": {
       "heading1": "Here's What The Best Hospital Management Information System Software Can Do HMIS"
       },
-    }
+    },
+    "EMRSoftware": {
+      "specialityBanner1": {
+      "heading1": "Unlock the power of EMR functionalities"
+      },
+    },
+    "EHRSoftware": {
+      "specialityBanner1": {
+      "heading1": "Unlock the power of EHR functionalities"
+      },
+    },
+    EHRSoftwareIndia: {
+      "specialityBanner1": {
+      "heading1": "Best EHR Software in India"
+      },
+    },
   } 
 
+
+  export const scheduleData = {
+    'April 4': [
+      { name: 'Steven McHail', title: 'Not so one-time payments', time: '9:00AM - 10:00AM PST' },
+    ],
+    'April 5': [
+      { name: 'Ronni Cantadore', title: 'Buy or die', time: '1:00PM - 2:00PM PST' },
+    ],
+    'April 6': [
+      { name: 'Andrew Greene', title: 'Neuralink dark patterns', time: '9:00AM - 10:00AM PST' },
+    ],
+  };

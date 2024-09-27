@@ -35,9 +35,10 @@ const TestimonialFeatures: React.FC = () => {
                   <path d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z" />
                 </svg>
                 <blockquote className="relative">
-                  <p className="text-lg tracking-tight text-slate-900 font-nunito">
-                    Curedesk is so easy to use I can’t help but wonder if it’s
-                    really doing the things the government expects me to do.
+                  <p className="text-lg tracking-tight text-slate-900 font-nunito md:min-h-[140px]">
+                  This software has been a lifesaver for our clinic. It's easy to use, and the appointment scheduling feature has been a game-changer. Our patients love the online booking option!
+
+.
                   </p>
                 </blockquote>
                 <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
@@ -74,9 +75,8 @@ const TestimonialFeatures: React.FC = () => {
                   <path d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z" />
                 </svg>
                 <blockquote className="relative">
-                  <p className="text-lg tracking-tight text-slate-900 font-nunito">
-                    Curedesk is so easy to use I can’t help but wonder if it’s
-                    really doing the things the government expects me to do.
+                  <p className="text-lg tracking-tight text-slate-900 font-nunito md:min-h-[140px]">
+                  The billing and invoicing module has simplified our financial management. We've reduced errors and streamlined our claims process. It's a great time-saver.
                   </p>
                 </blockquote>
                 <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
@@ -117,19 +117,17 @@ const TestimonialFeatures: React.FC = () => {
                   <path d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z" />
                 </svg>
                 <blockquote className="relative">
-                  <p className="text-lg tracking-tight text-slate-900 font-nunito">
-                    I’m trying to get a hold of someone in support, I’m in a lot
-                    of trouble right now and they are saying it has something to
-                    do with my books. Please get back to me right away.
+                  <p className="text-lg tracking-tight text-slate-900 font-nunito md:min-h-[140px]">
+                  The electronic prescribing feature has improved patient safety and reduced medication errors. It's also helped us streamline our workflow.
                   </p>
                 </blockquote>
                 <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                   <div>
                     <div className="font-display text-base text-slate-900">
-                      Amy Hahn
+                      Dr Ashutosh Chaturvedi
                     </div>
                     <div className="mt-1 text-sm text-slate-500">
-                      Director at Velocity Industries
+                      MBBS, MD(MEDICINE)
                     </div>
                   </div>
                   <div className="overflow-hidden rounded-full bg-slate-50">
@@ -157,19 +155,19 @@ const TestimonialFeatures: React.FC = () => {
                   <path d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z" />
                 </svg>
                 <blockquote className="relative">
-                  <p className="text-lg tracking-tight text-slate-900 font-nunito">
-                    I’m trying to get a hold of someone in support, I’m in a lot
-                    of trouble right now and they are saying it has something to
-                    do with my books. Please get back to me right away.
+                  <p className="text-lg tracking-tight text-slate-900 font-nunito md:min-h-[140px]">
+                  The patient portal has been a great way to improve communication with our patients. They can easily access their medical records and schedule appointments online.
+
+
                   </p>
                 </blockquote>
                 <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                   <div>
                     <div className="font-display text-base text-slate-900">
-                      Amy Hahn
+                    Dr. Mukesh Sharma
                     </div>
                     <div className="mt-1 text-sm text-slate-500">
-                      Director at Velocity Industries
+                    Professor at Homeopathy University
                     </div>
                   </div>
                   <div className="overflow-hidden rounded-full bg-slate-50">
@@ -179,7 +177,7 @@ const TestimonialFeatures: React.FC = () => {
                       width="56"
                       height="56"
                       className="h-14 w-14 object-cover"
-                      src="/ashutosh-chaturvedi.jpg"
+                      src="https://mukeshsharma-673f4.web.app/assets/img/hero-bg-mobile.jpg"
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -201,9 +199,8 @@ const TestimonialFeatures: React.FC = () => {
                   <path d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z" />
                 </svg>
                 <blockquote className="relative">
-                  <p className="text-lg tracking-tight text-slate-900 font-nunito">
-                    Curedesk is so easy to use I can’t help but wonder if it’s
-                    really doing the things the government expects me to do.
+                  <p className="text-lg tracking-tight text-slate-900 font-nunito md:min-h-[140px]">
+                  The customer support team has been excellent. They're always quick to respond to our questions and provide helpful assistance.
                   </p>
                 </blockquote>
                 <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
@@ -240,9 +237,8 @@ const TestimonialFeatures: React.FC = () => {
                   <path d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z" />
                 </svg>
                 <blockquote className="relative">
-                  <p className="text-lg tracking-tight text-slate-900 font-nunito">
-                    Curedesk is so easy to use I can’t help but wonder if it’s
-                    really doing the things the government expects me to do.
+                  <p className="text-lg tracking-tight text-slate-900 font-nunito md:min-h-[140px]">
+                  I would highly recommend this software to any clinic looking to improve their efficiency and patient care.
                   </p>
                 </blockquote>
                 <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">

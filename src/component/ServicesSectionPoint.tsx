@@ -7,7 +7,7 @@ const ServicesSectionPoint : React.FC<ServicesSectionPoint> = ({ heading }) =>  
       <div className=" text-center">
         <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Services</span>
         <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">{heading}</h2>
-        <p className="text-base font-medium mt-4 text-slate-400">Ligula risus auctor tempus magna feugit lacinia.</p>
+        <p className="text-base font-medium mt-4 text-slate-400">All-in-One Customer Service Platform</p>
       </div>
 
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-3 gap-y-6 md:gap-y-12 lg:gap-y-24 md:pt-20 pt-12">
