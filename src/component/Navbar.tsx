@@ -1,9 +1,14 @@
 // src/components/Navbar.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import { menuItems } from '../json/menuItems';
 import { Link } from 'react-router-dom';
+import ModalComponent from './ModalComponent';
 
 const Navbar: React.FC = () => {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
     <header className="py-2 bg-white fixed shadow-md top-0 left-0 right-0 z-50 border-solid border-[0px_0px_1px_0px] border-[#D7D7D754]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -11,8 +16,10 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="text-gray-500 font-bold text-xl relative">
             <Link to="/">
-            <img src="/logo-light.svg" alt='Logo' className='h-[50px]' />
-            <span className='font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[129px] text-[2rem]'>Curedesk</span>
+              <img src="/logo-light.svg" alt="Logo" className="h-[50px]" />
+              <span className="font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[129px] text-[2rem]">
+                Curedesk
+              </span>
             </Link>
           </div>
 
@@ -24,7 +31,9 @@ const Navbar: React.FC = () => {
                   {item.dropdown ? (
                     <>
                       <span className="flex items-center">
-                        <Link to={`${item.path}`} className="block w-full h-full">{item.name}</Link>
+                        <Link to={`${item.path}`} className="block w-full h-full">
+                          {item.name}
+                        </Link>
                         {/* Dropdown arrow */}
                         <svg
                           className="ml-2 h-4 w-4 text-gray-500"
@@ -51,7 +60,9 @@ const Navbar: React.FC = () => {
                       </ul>
                     </>
                   ) : (
-                    <Link to={`${item.path}`} className="block w-full h-full">{item.name}</Link>
+                    <Link to={`${item.path}`} className="block w-full h-full">
+                      {item.name}
+                    </Link>
                   )}
                 </li>
               ))}
@@ -60,12 +71,19 @@ const Navbar: React.FC = () => {
 
           {/* CTA Button */}
           <div>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-            <Link to="/contact">Book Appointment</Link>
+            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={handleOpen}>
+              Book Appointment
             </button>
           </div>
         </nav>
       </div>
+
+      {/* ModalComponent for Book Appointment */}
+      <ModalComponent
+        open={open}
+        handleClose={handleClose}
+        title="Book an Appointment"
+      />
     </header>
   );
 };

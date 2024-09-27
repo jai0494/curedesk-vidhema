@@ -24,6 +24,7 @@ const Contact: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
     setResultMessage('Sending...');
 
     // Reset error messages
@@ -52,7 +53,7 @@ const Contact: React.FC = () => {
     const json = JSON.stringify({ ...formData, access_key: 'YOUR_ACCESS_KEY_HERE' });
 
     try {
-      const response = await fetch('https://api.web3forms.com/submit', {
+      const response = await fetch('https://dhor.clinic.api.stageprojects.xyz/contact/user', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

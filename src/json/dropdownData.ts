@@ -25,12 +25,12 @@ export const services = [
   ]
 
   export const clients  =[
-    { "src": "/amazon.svg", "alt": "Amazon Logo" },
-    { "src": "/amazon.svg", "alt": "Google Logo" },
-    { "src": "/amazon.svg", "alt": "Lenovo Logo" },
-    { "src": "/amazon.svg", "alt": "Paypal Logo" },
-    { "src": "/amazon.svg", "alt": "Shopify Logo" },
-    { "src": "/amazon.svg", "alt": "Spotify Logo" }
+    { "src": "/testimonial/1.webp", "alt": "testimonial Logo" },
+    { "src": "/testimonial/2.webp", "alt": "testimonial Logo" },
+    { "src": "/testimonial/3.webp", "alt": "testimonial Logo" },
+    { "src": "/testimonial/4.webp", "alt": "testimonial Logo" },
+    { "src": "/testimonial/5.webp", "alt": "testimonial Logo" },
+    { "src": "/testimonial/6.webp", "alt": "testimonial Logo" }
   ]
 
 
@@ -261,4 +261,27 @@ export const services = [
     'April 6': [
       { name: 'ICD - 10 Codes', title: 'These are particular digitas for every disease and symptom. Moreover, it helps us to monitor disease.', time: '' },
     ],
+  };
+
+
+
+  export const headingDataServices = {
+    EHRSoftware: {
+      specialityBanner1: {
+        headingS: "Revolutionizing Patient Care with a Cutting-Edge EHR",
+        subheadingS: "Efficiently manage appointments, patient records, billing, and more with our user-friendly clinic management solution"
+      }
+    },
+    EMRSoftware: {
+      specialityBanner1: {
+        headingS: "Improve Patient Care with Integrated EMR",
+        subheadingS: "Efficiently manage appointments, patient records, billing, and more with our user-friendly clinic management solution"
+      }
+    },
+    HIS: {
+      specialityBanner1: {
+        headingS: "Enhance Efficiency with Hospital HIS Solution",
+        subheadingS: "Efficiently manage appointments, patient records, billing, and more with our user-friendly clinic management solution"
+      }
+    }
   };

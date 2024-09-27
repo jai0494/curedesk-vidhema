@@ -35,10 +35,10 @@ const HealthSection = () => {
                 <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                   <a
                     className="font-nunito inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-blue-50 font-medium text-center bg-blue-500 hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-md shadow-sm"
-                    href="#"
+                    href="tel:+919530138389"
                     data-config-id="text24"
                   >
-                    +44 0808 239 1352
+                    +91-9530138389
                   </a>
                 </div>
                 <div className="w-full md:w-auto py-1 md:py-0">
