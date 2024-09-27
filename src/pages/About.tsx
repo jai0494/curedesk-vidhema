@@ -1,5 +1,4 @@
 import FAQsSection from "../component/FAQsSection";
-import FeaturesCD from "../component/FeaturesCD";
 import FeaturesSectionSpeciality from "../component/FeaturesSectionSpeciality";
 import ServicesSectionPoint from "../component/ServicesSectionPoint";
 import SpecialityBanner from "../component/SpecialityBanner";
