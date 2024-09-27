@@ -50,7 +50,7 @@ const FeaturesSectionSpeciality: React.FC<FeaturesSectionProps> = ({ index }) =>
             <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
               {features.title} {/* Use the selected title */}
             </h2>
-            <a
+            {/* <a
               href={features.learnMoreLink}
               className="font-nunito inline-flex items-center justify-center gap-3 text-sm font-medium text-black mt-6"
             >
@@ -70,7 +70,7 @@ const FeaturesSectionSpeciality: React.FC<FeaturesSectionProps> = ({ index }) =>
                 <path d="M18 8L22 12L18 16" />
                 <path d="M2 12H22" />
               </svg>
-            </a>
+            </a> */}
             <hr className="border-gray-200 my-6" />
 
             {features.features.map((feature, index) => (

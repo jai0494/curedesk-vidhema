@@ -15,6 +15,8 @@ import ScrollToTop from './component/ScrollToTop';
 import EMRSoftware from './pages/EMRSoftware';
 import EHRSoftware from './pages/EHRSoftware';
 import EHRSoftwareIndia from './pages/EHRSoftwareIndia';
+import Gynecologist from './pages/Gynecologist';
+import Pulmonologist from './pages/Pulmonologist';
 const App: React.FC = () => {
   return (
     <Router>
@@ -29,6 +31,8 @@ const App: React.FC = () => {
           <Route path="/services/EMRSoftware" element={<EMRSoftware />} />
           <Route path="/services/EHRSoftware" element={<EHRSoftware />} />
           <Route path="/speciality/gastroenterologists" element={<Speciality />} />
+          <Route path="/speciality/Gynecologist" element={<Gynecologist />} />
+          <Route path="/speciality/pulmonologist" element={<Pulmonologist />} />
           <Route path="/ABHA" element={<ABHA />} />
           <Route path="/PMJAY" element={<PMJAY />} />
           <Route path="/EHRSoftwareIndia" element={<EHRSoftwareIndia />} />

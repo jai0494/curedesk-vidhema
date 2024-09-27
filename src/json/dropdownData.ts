@@ -54,26 +54,26 @@ export const services = [
     {
       id: 1,
       image: '/stat-1.png',
-      count: '25+',
-      description: 'Year of experience',
+      count: '10+',
+      description: 'Industry Experient',
     },
     {
       id: 2,
       image: '/stat-1.png',
-      count: '6,500+',
-      description: 'Class Completed',
+      count: '3000+',
+      description: 'DOCTORS & GROWINGS',
     },
     {
       id: 3,
       image: '/stat-1.png',
       count: '100+',
-      description: 'Experts Instructors',
+      description: 'Clinic',
     },
     {
       id: 4,
       image: '/stat-1.png',
-      count: '6,561+',
-      description: 'Students Enrolled',
+      count: '200K+',
+      description: 'APPOINMENTS HANDLED ANNUALLY',
     },
   ];
   
@@ -82,7 +82,7 @@ export const services = [
     {
       "title": "Why Choose Healthray's EMR For Gastroenterologists",
       "description": "Focused on achieving",
-      "image": "https://pixydrops.com/mediox-html/assets/images/why-choose/why-choose-3-1.jpg",
+      "image": "/why-choose-3-1.webp",
       "learnMoreLink": "#",
       "features": [
         {
@@ -105,7 +105,7 @@ export const services = [
     {
       "title": "About ABHA(Ayushman Bharat Health Account​​)",
       "description": "Focused on achieving",
-      "image": "https://pixydrops.com/mediox-html/assets/images/why-choose/why-choose-3-1.jpg",
+      "image": "/why-choose-3-1.webp",
       "learnMoreLink": "#",
       "features": [
         {
@@ -128,7 +128,7 @@ export const services = [
     {
       "title": "Ayushman Bharath Yojana, Eligibility & Registration Online",
       "description": "Focused on achieving",
-      "image": "https://pixydrops.com/mediox-html/assets/images/why-choose/why-choose-3-1.jpg",
+      "image": "/why-choose-3-1.webp",
       "learnMoreLink": "#",
       "features": [
         {
@@ -151,7 +151,7 @@ export const services = [
     {
       "title": "Curedesk: Leading the Healthcare Revolution",
       "description": "Focused on achieving",
-      "image": "https://pixydrops.com/mediox-html/assets/images/why-choose/why-choose-3-1.jpg",
+      "image": "/why-choose-3-1.webp",
       "learnMoreLink": "#",
       "features": [
         {
@@ -181,6 +181,22 @@ export const services = [
       },
       "specialityBanner1": {
       "heading1": "Benefits Of Using EMR For Gastroenterologists"
+      },
+    },
+    "Pulmonologist":{
+      "specialityBanner": {
+      "heading": "Best EMR Software For Pulmonologist"
+      },
+      "specialityBanner1": {
+      "heading1": "Benefits Of Using EMR For Pulmonologist"
+      },
+    },
+    "Gynecologist":{
+      "specialityBanner": {
+      "heading": "Best EMR Software For Gynecologist"
+      },
+      "specialityBanner1": {
+      "heading1": "Benefits Of Using EMR For Gynecologist"
       },
     },
     "ABHA": {
