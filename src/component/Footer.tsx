@@ -83,18 +83,8 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#" rel="noreferrer" target="_blank" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      Custom Development
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" rel="noreferrer" target="_blank" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      Discord
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" rel="noreferrer" target="_blank" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      Tailwind Components
+                    <a href="#" rel="noreferrer" target="_self" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
+                      <Link to="/EHRSoftwareUSA">Best EHR Software in USA</Link>
                     </a>
                   </li>
                 </ul>

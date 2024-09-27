@@ -233,17 +233,22 @@ export const services = [
       "heading1": "Best EHR Software in India"
       },
     },
+    EHRSoftwareUSA: {
+      "specialityBanner1": {
+      "heading1": "Best EHR Software in USA"
+      },
+    },
   } 
 
 
   export const scheduleData = {
     'April 4': [
-      { name: 'Steven McHail', title: 'Not so one-time payments', time: '9:00AM - 10:00AM PST' },
+      { name: 'Electronic Prescribing', title: 'Procedure to write a prescription on the digital version. Moreover, it makes data accurate, and easy to modify any documents.', time: '' },
     ],
     'April 5': [
-      { name: 'Ronni Cantadore', title: 'Buy or die', time: '1:00PM - 2:00PM PST' },
+      { name: 'Interactive reports', title: 'Reports are created with the blink of an eye. Therefore, it supports major healthcare decisions and visualizes data at glance.', time: '' },
     ],
     'April 6': [
-      { name: 'Andrew Greene', title: 'Neuralink dark patterns', time: '9:00AM - 10:00AM PST' },
+      { name: 'ICD - 10 Codes', title: 'These are particular digitas for every disease and symptom. Moreover, it helps us to monitor disease.', time: '' },
     ],
   };

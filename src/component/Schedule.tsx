@@ -10,10 +10,10 @@ const Schedule: React.FC = () => {
         
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl tracking-tighter text-slate-800 sm:text-5xl font-nunito font-bold">
-            Our three-day schedule is jam-packed with brilliant, creative, evil geniuses.
+          Clinic Management Software: Streamlining Operations for Efficient Healthcare Delivery
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever seen. Nothing will be recorded and every attendee has to sign an NDA to watch the talks.
+          By leveraging clinic management software, healthcare providers can improve operational efficiency
           </p>
         </div>
       </div>
@@ -27,8 +27,8 @@ const Schedule: React.FC = () => {
                   <ol role="list" className="space-y-8 bg-white/60 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur">
                     {(scheduleData[date as keyof typeof scheduleData] || []).map((event, index) => (
                       <li key={index}>
-                        <h4 className="text-lg font-semibold tracking-tight text-blue-900">{event.name}</h4>
-                        <p className="mt-1 tracking-tight text-blue-900">{event.title}</p>
+                        <h4 className="text-2xl font-bold tracking-tight text-blue-900 font-nunito">{event.name}</h4>
+                        <p className="mt-1 tracking-tight text-blue-900 font-nunito">{event.title}</p>
                         <p className="mt-1 font-mono text-sm text-slate-500">{event.time}</p>
                       </li>
                     ))}
