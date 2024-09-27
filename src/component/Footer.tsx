@@ -58,12 +58,12 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#" rel="noreferrer" target="_blank" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      EMR Software
+                    <Link to="/services/EMRSoftware">EMR Software</Link>
                     </a>
                   </li>
                   <li>
                     <a href="/#" rel="noreferrer" target="_self" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      EHR Software
+                    <Link to="/services/EHRSoftware">EHR Software</Link>
                     </a>
                   </li>
                 </ul>
