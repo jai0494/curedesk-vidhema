@@ -40,10 +40,10 @@ const SecondaryFeatures: React.FC = () => {
               </div>
               <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Reporting</h3>
               <p className="mt-2 font-display text-xl text-slate-900 font-nunito font-bold">
-                Stay on top of things with always up-to-date reporting features.
+              Real-time medical reports
               </p>
               <p className="mt-4 text-sm text-slate-600">
-                We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.
+              Our systems improve the data quality by recording instant medical information. Therefore, it quickens the treatment proce.
               </p>
             </div>
 
@@ -61,10 +61,10 @@ const SecondaryFeatures: React.FC = () => {
               </div>
               <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Inventory</h3>
               <p className="mt-2 font-display text-xl text-slate-900 font-nunito font-bold">
-                Never lose track of what’s in stock with accurate inventory tracking.
+              Digital medical access
               </p>
               <p className="mt-4 text-sm text-slate-600">
-                We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.
+              Our software systems allow users to connect remotely with healthcare providers. Also, assist patients in maintaining routine medical activities.
               </p>
             </div>
 
@@ -85,10 +85,12 @@ const SecondaryFeatures: React.FC = () => {
               </div>
               <h3 className="mt-6 text-sm font-medium text-blue-600 font-nunito">Contacts</h3>
               <p className="mt-2 font-display text-xl text-slate-900 font-nunito font-bold">
-                Organize all of your contacts, service providers, and invoices in one place.
+              Appointment management
+
+
               </p>
               <p className="mt-4 text-sm text-slate-600">
-                This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.
+              Our systems in healthcare manage all appointments in a single platform. Therefore, eliminate the queue system.
               </p>
             </div>
 
