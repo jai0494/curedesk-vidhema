@@ -3,7 +3,6 @@ import React from 'react';
 interface TestimonialProps {
   quote: string;
   name: string;
-  title: string;
   imageSrc: string;
   imageAlt: string;
 }
@@ -11,7 +10,6 @@ interface TestimonialProps {
 const TestimonialCard: React.FC<TestimonialProps> = ({
   quote,
   name,
-  title,
   imageSrc,
   imageAlt
 }) => (
@@ -33,7 +31,6 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
       <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
         <div>
           <div className="font-display text-base text-slate-900">{name}</div>
-          {/* <div className="mt-1 text-sm text-slate-500">{title}</div> */}
         </div>
         <div className="overflow-hidden rounded-full bg-slate-50">
           <img
@@ -57,7 +54,6 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         'The electronic prescribing feature has improved patient safety and reduced medication errors. It\'s also helped us streamline our workflow.',
       name: 'Dr. Ashutosh Chaturvedi',
-      title: 'MBBS, MD (Medicine)',
       imageSrc: '/ashutosh-chaturvedi.jpg',
       imageAlt: 'Dr. Ashutosh Chaturvedi'
     },
@@ -65,7 +61,6 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         'The patient portal has been a great way to improve communication with our patients. They can easily access their medical records and schedule appointments online.',
       name: 'Dr. Mukesh Sharma',
-      title: 'Professor at Homeopathy University',
       imageSrc: 'https://mukeshsharma-673f4.web.app/assets/img/hero-bg-mobile.jpg',
       imageAlt: 'Dr. Mukesh Sharma'
     },
@@ -73,7 +68,6 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         "This software has been a lifesaver for our clinic. It's easy to use, and the appointment scheduling feature has been a game-changer. Our patients love the online booking option!",
       name: 'Dr. Caitlin E. Hackett',
-      title: 'CEO at Lynch LLC',
       imageSrc: '/doctor.jpg',
       imageAlt: 'Sheryl Berge'
     },
@@ -81,7 +75,6 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         "The billing and invoicing module has simplified our financial management. We've reduced errors and streamlined our claims process. It's a great time-saver.",
       name: 'Dr. Adam Young',
-      title: 'CEO at Lynch LLC',
       imageSrc: '/doctor.jpg',
       imageAlt: 'Sheryl Berge'
     },
@@ -89,7 +82,6 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         'The customer support team has been excellent. They\'re always quick to respond to our questions and provide helpful assistance.',
       name: 'Dr. Cheong',
-      title: 'CEO at Lynch LLC',
       imageSrc: '/doctor.jpg',
       imageAlt: 'Sheryl Berge'
     },
@@ -97,7 +89,6 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         'I would highly recommend this software to any clinic looking to improve their efficiency and patient care.',
       name: 'Dr. Subhash Sharma',
-      title: 'CEO at Lynch LLC',
       imageSrc: '/doctor.jpg',
       imageAlt: 'Sheryl Berge'
     }
