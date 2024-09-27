@@ -24,7 +24,6 @@ export const menuItems = [
       dropdown: [
         { name: "ABHA", path: "/ABHA" },
         { name: "PMJAY", path: "/PMJAY" },
-        { name: "Service 3", path: "/services/service3" },
       ],
     },
     { name: "Contact", path: "/contact" },
