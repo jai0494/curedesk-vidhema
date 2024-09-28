@@ -1,6 +1,6 @@
 // src/components/ModalComponent.tsx
 import React from 'react';
-import { Modal, Box, Typography, Button } from '@mui/material';
+import { Modal, Box, Button } from '@mui/material';
 import { InlineWidget } from 'react-calendly';
 
 interface ModalComponentProps {
@@ -9,7 +9,7 @@ interface ModalComponentProps {
   title: string;
 }
 
-const ModalComponent: React.FC<ModalComponentProps> = ({ open, handleClose, title }) => {
+const ModalComponent: React.FC<ModalComponentProps> = ({ open, handleClose }) => {
   const style = {
     position: 'absolute' as 'absolute',
     top: '50%',
