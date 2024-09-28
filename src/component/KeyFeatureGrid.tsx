@@ -13,7 +13,7 @@ const features = [
   },
   {
     title: 'Our Address',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+    description: 'India, USA & Singapore',
     icon: 'images/icons/feature-icon-3.svg',
   },
 ];
