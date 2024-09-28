@@ -53,16 +53,16 @@ const TestimonialFeatures: React.FC = () => {
     {
       quote:
         'The electronic prescribing feature has improved patient safety and reduced medication errors. It\'s also helped us streamline our workflow.',
-      name: 'Dr. Ashutosh Chaturvedi',
-      imageSrc: '/ashutosh-chaturvedi.jpg',
-      imageAlt: 'Dr. Ashutosh Chaturvedi'
+      name: 'Dr. Cheong',
+      imageSrc: '/testimonial/doc.png',
+      imageAlt: 'Dr. Cheong'
     },
     {
       quote:
         'The patient portal has been a great way to improve communication with our patients. They can easily access their medical records and schedule appointments online.',
-      name: 'Dr. Mukesh Sharma',
-      imageSrc: 'https://mukeshsharma-673f4.web.app/assets/img/hero-bg-mobile.jpg',
-      imageAlt: 'Dr. Mukesh Sharma'
+      name: 'Dr. Ashutosh Chaturvedi',
+      imageSrc: '/ashutosh-chaturvedi.jpg',
+      imageAlt: 'Dr. Ashutosh Chaturvedi'
     },
     {
       quote:
@@ -81,15 +81,15 @@ const TestimonialFeatures: React.FC = () => {
     {
       quote:
         'The customer support team has been excellent. They\'re always quick to respond to our questions and provide helpful assistance.',
-      name: 'Dr. Cheong',
-      imageSrc: '/doctor.jpg',
-      imageAlt: 'Sheryl Berge'
+      name: 'Dr. Mukesh Sharma',
+      imageSrc: 'https://mukeshsharma-673f4.web.app/assets/img/hero-bg-mobile.jpg',
+      imageAlt: 'Dr. Mukesh Sharma'
     },
     {
       quote:
         'I would highly recommend this software to any clinic looking to improve their efficiency and patient care.',
       name: 'Dr. Subhash Sharma',
-      imageSrc: '/doctor.jpg',
+      imageSrc: '/testimonial/doc1.jfif',
       imageAlt: 'Sheryl Berge'
     }
   ];
@@ -102,8 +102,8 @@ const TestimonialFeatures: React.FC = () => {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 font-nunito font-bold sm:text-4xl md:max-w-[1000px] text-center">
-            Loved by Businesses Worldwide
+          <h2 className="font-display text-3xl tracking-tight text-slate-900 font-nunito font-bold sm:text-4xl md:max-w-[1000px] md:text-center">
+            Loved by Doctors Worldwide
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Our software is so simple that people can’t help but fall in love

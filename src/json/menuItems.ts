@@ -2,7 +2,7 @@ export const menuItems = [
     { name: "About", path: "/about" },
     {
       name: "Healthray Products",
-      path: "/services",
+      path: "/",
       dropdown: [
         { name: "Hospital Information Management System (HIMS)", path: "/services/hospital-information-management-system" },
         { name: "EMR Software", path: "/services/EMRSoftware" }, // Updated Service 2
@@ -11,7 +11,7 @@ export const menuItems = [
     },
     {
       name: "Speciality",
-      path: "/services",
+      path: "/",
       dropdown: [
         { name: "Gastroenterologists", path: "/speciality/gastroenterologists" },
         { name: "Pulmonologist", path: "/speciality/pulmonologist" },
@@ -20,7 +20,7 @@ export const menuItems = [
     },
     {
       name: "ABDM",
-      path: "/services",
+      path: "/",
       dropdown: [
         { name: "ABHA", path: "/ABHA" },
         { name: "PMJAY", path: "/PMJAY" },

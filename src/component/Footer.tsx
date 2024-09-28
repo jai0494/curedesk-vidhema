@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="relative z-50 bg-white px-8 pt-6 pb-3 border-[1.5px] border-blue-gray-50">
+    <footer className="relative z-50 bg-white md:px-8 pt-6 pb-3 border-[1.5px] border-blue-gray-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap">
           <div className="w-full md:w-4/12">
@@ -35,8 +35,8 @@ const Footer = () => {
                 </a>
               </div>
           </div>
-          <div className="ml-auto w-full px-4 md:w-7/12">
-            <div className="items-top mb-6 flex flex-wrap">
+          <div className="ml-auto w-full md:px-4 md:w-7/12">
+            <div className="items-top mb-6 flex flex-wrap flex-col md:flex-row">
               <div className="w-6/12 pt-6 md:ml-auto md:px-4 md:pt-0 xl:w-3/12">
                 <span className="text-md mb-4 block font-bold text-slate-600 font-nunito">Company</span>
                 <ul className="list-unstyled">
@@ -53,7 +53,7 @@ const Footer = () => {
                   
                 </ul>
               </div>
-              <div className="ml-auto w-6/12 pt-6 md:px-4 md:pt-0 xl:w-3/12">
+              <div className="md:ml-auto w-6/12 pt-6 md:px-4 md:pt-0 xl:w-3/12">
                 <span className="text-md mb-4 block font-bold font-nunito text-slate-600">Links</span>
                 <ul className="list-unstyled">
                   <li>
@@ -78,7 +78,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="ml-auto w-6/12 pt-6 md:px-4 md:pt-0 xl:w-4/12">
+              <div className="md:ml-auto w-6/12 pt-6 md:px-4 md:pt-0 xl:w-4/12">
                 <span className="text-md mb-4 block font-bold text-slate-600 font-nunito">Country Wise Solutions</span>
                 <ul className="list-unstyled">
                   <li>

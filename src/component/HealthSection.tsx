@@ -13,7 +13,7 @@ const HealthSection = () => {
       className="relative bg-white overflow-hidden mt-20"
     >
       <div
-        className="py-20 md:py-0 bg-coolGray-900"
+        className="md:py-20 md:py-0 bg-coolGray-900"
         style={{
           backgroundImage: "url('flex-ui-assets/elements/pattern-dark2.svg')",
           backgroundPosition: 'center',
@@ -21,7 +21,7 @@ const HealthSection = () => {
       >
         <div className="mx-auto max-w-7xl px-4 ">
           <div className="flex flex-wrap xl:items-center -mx-4">
-            <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
+            <div className="w-full md:w-1/2 px-4 md:mb-16 mb-8 md:mb-0">
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-white bg-blue-500 uppercase rounded-9xl" data-config-id="text11">
                 Located in USA
               </span>

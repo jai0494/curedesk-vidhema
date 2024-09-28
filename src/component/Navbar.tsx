@@ -1,4 +1,3 @@
-// src/components/Navbar.tsx
 import React, { useState } from 'react';
 import { menuItems } from '../json/menuItems';
 import { Link } from 'react-router-dom';
@@ -6,13 +5,16 @@ import ModalComponent from './ModalComponent';
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
     <header className="py-2 bg-white fixed shadow-md top-0 left-0 right-0 z-50 border-solid border-[0px_0px_1px_0px] border-[#D7D7D754]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center justify-between p-4 pl-0 pr-0">
+        <nav className="flex items-start md:items-center flex-col md:flex-row justify-between p-4 pl-0 pr-0">
           {/* Logo */}
           <div className="text-gray-500 font-bold text-xl relative">
             <Link to="/">
@@ -23,9 +25,44 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
 
+          {/* Hamburger/Close Icon for Mobile */}
+          <div className="md:hidden">
+            <button onClick={toggleMenu} className="text-gray-500 focus:outline-none fixed top-[40px] right-[30px]">
+              <svg
+                className="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                {menuOpen ? (
+                  // Close Icon
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  // Hamburger Icon
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+            </button>
+          </div>
+
           {/* Menu Items */}
-          <div className="relative mx-auto">
-            <ul className="flex space-x-6">
+          <div
+            className={`${
+              menuOpen ? 'block' : 'hidden'
+            } md:block relative md:mx-auto md:flex md:space-x-6 pt-5 md:pt-0`}
+          >
+            <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
               {menuItems.map((item) => (
                 <li key={item.name} className="text-gray-500 relative group cursor-pointer font-nunito">
                   {item.dropdown ? (
@@ -70,20 +107,25 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* CTA Button */}
-          <div>
+          <div className="hidden md:block">
             <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={handleOpen}>
               Book Appointment
             </button>
           </div>
         </nav>
+
+        {/* Mobile CTA Button */}
+        {menuOpen && (
+          <div className="md:hidden mt-4">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded w-full hover:bg-blue-600" onClick={handleOpen}>
+              Book Appointment
+            </button>
+          </div>
+        )}
       </div>
 
       {/* ModalComponent for Book Appointment */}
-      <ModalComponent
-        open={open}
-        handleClose={handleClose}
-        title="Book an Appointment"
-      />
+      <ModalComponent open={open} handleClose={handleClose} title="Book an Appointment" />
     </header>
   );
 };

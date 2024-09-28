@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Form: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -36,24 +38,34 @@ const Form: React.FC = () => {
     try {
       const response = await axios.post('https://dhor.clinic.api.stageprojects.xyz/clients/add', payload);
       console.log('Response:', response.data);
-
+      if (response.data.message === "User with this mobile No. or Email Id already exist") {
+        toast.error("User with this mobile No. or Email Id already exist");
+      }
+      else{
       // Reset the form fields after successful submission
-      setFormData({
-        clinicName: '',
-        doctorName: '',
-        branchName: '',
-        mobile: '',
-        email: '',
-        type: '',
-      });
-
-    } catch (error) {
-      console.log('Error submitting form:', error);
+        setFormData({
+          clinicName: '',
+          doctorName: '',
+          branchName: '',
+          mobile: '',
+          email: '',
+          type: '',
+        });
+        toast.success("Thank you for contacting Us. Curedesk team will contact you soon");
+      }
+    } catch (error: any) {
+      if (error.response && error.response.data.message === "User with this mobile No. or Email Id already exist") {
+        toast.error("User with this mobile No. or Email Id already exist");
+      } else {
+        console.log('Error submitting form:', error);
+        toast.error("An error occurred. Please try again.");
+      }
     }
   };
 
   return (
     <div className="mx-auto bg-white p-6 rounded-lg shadow-lg border border-gray-300 mb-5">
+      <ToastContainer />
       <h4 className='text-2xl md:text-4xl/tight font-bold text-black mt-2 font-nunito mb-7 text-center'>Create Your Clinic in 2 minutes</h4>
       <form onSubmit={handleSubmit} className="flex flex-wrap justify-between">
         
@@ -148,6 +160,8 @@ const Form: React.FC = () => {
             <option value="Homeopathy">Homeopathy</option>
           </select>
         </div>
+        {/* Other Input Fields */}
+        {/* ... */}
 
         {/* Submit Button */}
         <div className='flex-[0_0_100%] mb-3'>

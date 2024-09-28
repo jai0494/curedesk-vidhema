@@ -40,10 +40,10 @@ const FeaturesSectionSpeciality: React.FC<FeaturesSectionProps> = ({ index }) =>
         <div className="grid lg:grid-cols-2 items-center gap-6">
           <div className="flex items-center">
             {/* Use the image from the selected feature set */}
-            <img src={features.image} className="h-[650px] rounded-xl mx-auto" alt="feature section" />
+            <img src={features.image} className="md:h-[650px] rounded-xl mx-auto" alt="feature section" />
           </div>
 
-          <div className="lg:ms-5 ms-8">
+          <div className="lg:ms-5 md:ms-8">
             <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950 text-blue-600 font-nunito">
               {features.description} {/* Use the selected description */}
             </span>

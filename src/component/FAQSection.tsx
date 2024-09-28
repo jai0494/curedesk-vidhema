@@ -28,7 +28,7 @@ const FAQSection = () => {
 
   return (
     <section className="py-12 bg-white">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-4xl mx-auto md:px-4">
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-300 pb-4">

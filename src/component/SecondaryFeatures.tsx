@@ -17,7 +17,7 @@ const SecondaryFeatures: React.FC = () => {
           </p>
         </div>
 
-        <div className="-mx-4 mt-20 grid grid-cols-3 gap-x-8 gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6">
+        <div className="-mx-4 mt-7 md:mt-20 grid md:grid-cols-3 gap-x-8 gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6">
           {/* First Card */}
           <div>
             <div className="mx-auto max-w-2xl">

@@ -1,12 +1,14 @@
 const features = [
   {
     title: 'Talk to our team for assistance',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+    link: 'tel:+919530138389',
+    description: '+91-9530138389',
     icon: 'images/icons/feature-icon-1.svg',
   },
   {
     title: 'Mail Us at',
-    description: 'theCuredesk@gmail.com',
+    link:'mailto:thecuredesk@gmail.com',
+    description: 'thecuredesk@gmail.com',
     icon: 'images/icons/feature-icon-2.svg',
   },
   {
@@ -23,7 +25,7 @@ const KeyFeatureGrid = () => {
         <div key={index} className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg">
           <div>
             <h3 className="h4 text-xl lg:text-2xl font-nunito font-bold text-slate-700">{feature.title}</h3>
-            <p className="font-nunito text-slate-400">{feature.description}</p>
+            <p className="font-nunito text-slate-400"><a target="_blank" href={feature.link}>{feature.description}</a></p>
           </div>
           <span className="icon mt-4">
             {/* <img className="object-contain" src={feature.icon} alt={feature.title} /> */}

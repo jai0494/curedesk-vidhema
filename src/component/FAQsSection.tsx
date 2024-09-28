@@ -16,7 +16,7 @@ const FAQsSection = () => {
     >
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex flex-wrap -mx-4">
-          <div className="w-full md:w-1/2 px-4 mb-20 md:mb-0">
+          <div className="w-full md:w-1/2 px-4 mb-5 md:mb-20 md:mb-0">
             <div className="max-w-md">
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-blue-500 bg-blue-100 font-medium rounded-full shadow-sm">
                 FAQ

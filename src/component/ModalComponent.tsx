@@ -20,7 +20,7 @@ const ModalComponent: React.FC<ModalComponentProps> = ({ open, handleClose, titl
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
-    p: 4,
+    p: 0,
     borderRadius: 2,
     overflowY: 'auto',
     maxHeight: '90vh', // Handle vertical overflow
@@ -34,9 +34,6 @@ const ModalComponent: React.FC<ModalComponentProps> = ({ open, handleClose, titl
       aria-describedby="modal-description"
     >
       <Box sx={style}>
-        <Typography id="modal-title" variant="h6" component="h2" sx={{ mb: 2 }}>
-          {title}
-        </Typography>
         {/* Calendly Inline Widget */}
         <InlineWidget
           url="https://calendly.com/thecuredesk/30min?month=2024-09"
