@@ -19,6 +19,7 @@ const Services: React.FC = () => {
           <FeaturesCD
             heading={sectionDataFeatures.heading}
             description={sectionDataFeatures.description}
+            featuresData={sectionDataFeatures.features}
           />
           <TrustedByCompanies /><FAQsSection />
       </div>

@@ -120,23 +120,23 @@ export const services = [
     {
       "title": "Why Choose Curedesk's EMR For Gastroenterologists",
       "description": "Focused on achieving",
-      "image": "/why-choose-3-1.webp",
+      "image": "/demo/gastroenterologists.jpg",
       "learnMoreLink": "#",
       "features": [
         {
           "icon": "check",
-          "title": "Templates to Streamline Your Workflow",
-          "description": "Templates for initial consultations, follow-up visits, and procedure notes"
+          "title": "Gastroenterology-Specific Templates",
+          "description": " Pre-built templates and workflows tailored to gastroenterology practices, saving time and ensuring accuracy."
         },
         {
-          "icon": "layers-2",
-          "title": "Update Profile",
-          "description": "Ability to easily update and maintain patient profiles"
+          "icon": "check",
+          "title": "GI-Specific Terminology and Codes",
+          "description": "Comprehensive support for gastroenterology-specific terminology and coding systems."
         },
         {
-          "icon": "lock",
-          "title": "Efficient Lab Management",
-          "description": "Easy ordering and tracking of lab tests, biopsies, and other diagnostic procedures."
+          "icon": "check",
+          "title": "Integrated Endoscopy Management",
+          "description": "Seamless integration with endoscopy systems for efficient documentation and reporting."
         }
       ]
     },
@@ -215,32 +215,32 @@ export const services = [
       ]
     },
     {
-      "title": "Why Choose Curedesk's EMR For Pulmonologist",
+      "title": "The Advantages of EMR for Pulmonary Practice",
       "description": "Achieving Your Potential",
-      "image": "/why-choose-3-1.webp",
+      "image": "/demo/Pulmonologist1.jpg",
       "learnMoreLink": "#",
       "features": [
         {
           "icon": "check",
-          "title": "Saves patient profiles.",
-          "description": "Templates for initial consultations, follow-up visits, and procedure notes"
+          "title": "Enhanced Financial Performance",
+          "description": "Improved billing, reduced costs, and improved revenue cycle management."
         },
         {
-          "icon": "layers-2",
-          "title": "Integration with pulmonary",
-          "description": "Integration with pulmonary function testing (PFT) machines, spirometers, and other diagnostic equipment."
+          "icon": "check",
+          "title": "Improved Compliance",
+          "description": "Adherence to regulations and quality improvement initiatives."
         },
         {
-          "icon": "lock",
-          "title": "Efficient Lab Management",
-          "description": "Pre-designed templates for common pulmonary conditions and procedures. Medication history tracking, including inhalers, nebulizers, and oral medications."
+          "icon": "check",
+          "title": "Specialized Features for Pulmonologists",
+          "description": "Respiratory-specific templates, integration with PFT equipment, and support for pulmonary rehabilitation programs."
         }
       ]
     },
     {
       "title": "Curedesk EMR: The Best Choice for Gynaecologists",
       "description": "Achieving Your Potential",
-      "image": "/why-choose-3-1.webp",
+      "image": "/demo/gyna.jpg",
       "learnMoreLink": "#",
       "features": [
         {
@@ -263,7 +263,7 @@ export const services = [
     {
       "title": "A Guide to Ayushman Bharat: Eligibility and Online Registration",
       "description": "Achieving Your Potential",
-      "image": "/why-choose-3-1.webp",
+      "image": "/demo/doctor-pmjay.jpg",
       "learnMoreLink": "#",
       "features": [
         {
@@ -302,7 +302,7 @@ export const services = [
       "heading": "Best EMR Software For Gastroenterologists"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of Using EMR For Gastroenterologists"
+      "heading1": "Benefits Of Using Curedesk For Gastroenterologists"
       },
     },
     "Pulmonologist":{
@@ -310,7 +310,7 @@ export const services = [
       "heading": "Best EMR Software For Pulmonologist"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of Using EMR For Pulmonologist"
+      "heading1": "Benefits Of Using Curedesk For Pulmonologist"
       },
     },
     "Gynecologist":{
@@ -318,7 +318,7 @@ export const services = [
       "heading": "Best EMR Software For Gynecologist"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of Using EMR For Gynecologist"
+      "heading1": "Benefits Of Using Curedesk For Gynecologist"
       },
     },
     "ABHA": {
@@ -326,7 +326,7 @@ export const services = [
       "heading": "Ayushman Bharat Health Account​"
       },
       "specialityBanner1": {
-      "heading1": "What Are The Benefits Of An ABHA Health Card?"
+      "heading1": "What Are The Benefits Of An Curedesk Software with ABHA"
       },
     },
     "PMJAY": {
@@ -334,7 +334,7 @@ export const services = [
       "heading": "PMJAY Scheme​"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of PM-JAY"
+      "heading1": "Benefits Of Curedesk with PM-JAY"
       },
     },
     "About": {
@@ -352,12 +352,12 @@ export const services = [
     },
     "EMRSoftware": {
       "specialityBanner1": {
-      "heading1": "Unlock the power of EMR functionalities"
+      "heading1": "Unlock the power of Curedesk with EMR functionalities"
       },
     },
     "EHRSoftware": {
       "specialityBanner1": {
-      "heading1": "Unlock the power of EHR functionalities"
+      "heading1": "The Positive Impact of Curedesk's EHR"
       },
     },
     EHRSoftwareIndia: {
@@ -430,6 +430,12 @@ export const services = [
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Unlike previous sectoral or segmented approaches to healthcare, Ayushman Bharat adopts a comprehensive approach that addresses the diverse needs of the population. The scheme covers a wide range of medical treatments and procedures, including hospitalization, surgeries, and diagnostics.</p><ul class='ml-5 text-md font-normal text-gray-500 mt-2 font-nunito list-disc'><li><strong>Affordable Healthcare:</strong> The scheme provides cashless hospitalization benefits up to ₹5 lakh per family per year.</li><li><strong>Increased Access:</strong> Ayushman Bharat has significantly improved access to healthcare services, especially for those living in rural areas and marginalized communities.</li><li><strong>Quality Healthcare:</strong> The scheme ensures that beneficiaries receive quality healthcare services in both public and private hospitals.</li><li><strong>Reduced Out-of-Pocket Expenses:</strong> By covering hospitalization costs, Ayushman Bharat reduces the financial burden on families and prevents them from falling into debt due to medical expenses.</li></ul>"
       },
       {
+        "id": "PMJAY2",
+        "image": "/demo/Ayushman-Bharath-Yojana.webp",
+        "heading": "Ayushman Bharat Health ID: A Step-by-Step Guide",
+        "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Unlike previous sectoral or segmented approaches to healthcare, Ayushman Bharat adopts a comprehensive approach that addresses the diverse needs of the population. The scheme covers a wide range of medical treatments and procedures, including hospitalization, surgeries, and diagnostics.</p><ul class='ml-5 text-md font-normal text-gray-500 mt-2 font-nunito list-disc'><li><strong>Affordable Healthcare:</strong> The scheme provides cashless hospitalization benefits up to ₹5 lakh per family per year.</li><li><strong>Increased Access:</strong> Ayushman Bharat has significantly improved access to healthcare services, especially for those living in rural areas and marginalized communities.</li><li><strong>Quality Healthcare:</strong> The scheme ensures that beneficiaries receive quality healthcare services in both public and private hospitals.</li><li><strong>Reduced Out-of-Pocket Expenses:</strong> By covering hospitalization costs, Ayushman Bharat reduces the financial burden on families and prevents them from falling into debt due to medical expenses.</li></ul>"
+      },
+      {
         "id": "Gastroenterologists",
         "image": "/demo/gastroenterologist-kerala.jpg",
         "heading": "EMR Systems for Gastroenterology Practices",
@@ -452,6 +458,12 @@ export const services = [
         "image": "/demo/EMR-Software.webp",
         "heading": "Emerging Trends in Electronic Medical Records",
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Electronic Medical Records (EMR) software has undergone significant advancements in recent years, driven by technological innovations and the evolving needs of healthcare providers. Here are some of the key trends shaping the future of EMR:</p><ul class='ml-5 text-md font-normal text-gray-500 mt-2 font-nunito list-disc'><li><strong>Artificial Intelligence (AI) and Machine Learning:</strong> AI can automate routine tasks like scheduling, medication reminders, and generating medical reports, freeing up healthcare professionals to focus on patient care.</li><li><strong>Health Information Exchanges (HIEs):</strong> EMR systems are increasingly integrating with HIEs to enable seamless sharing of patient data across different healthcare providers and facilities.</li><li><strong>Patient Engagement and Portals:</strong> Patients can access their medical records, schedule appointments, and communicate with healthcare providers through patient portals.</li><li><strong>Cybersecurity and Data Privacy:</strong> As EMR systems store sensitive patient data, ensuring robust cybersecurity measures is crucial to protect patient privacy and prevent data breaches.</li></ul>"
+      },
+      {
+        id:"EHRSoftware",
+        "image": "/demo/EHR.jpg",
+        "heading": "Why We're the Top EHR Choice",
+        "description": "<p>Our EHR is the preferred solution for healthcare providers seeking:</p><p>Enhanced Efficiency and Productivity</p><ul><li className='mb-2 font-nunito'><strong>Streamlined Workflow:</strong> Our EHR automates administrative tasks, reducing paperwork and improving efficiency.</li><li className='mb-2 font-nunito'><strong>Time-Saving Features:</strong> Intuitive interface and customizable templates accelerate data entry and retrieval.</li><li class='mb-2 font-nunito'><strong>Improved Patient Care:</strong> Real-time access to patient information enables informed decision-making and personalized care.</li></ul><p>Advanced Technology</p>  <ul><li className='mb-2 font-nunito'><strong>Cloud-Based Platform:</strong> Enjoy the benefits of cloud computing, including accessibility, scalability, and reduced IT costs.</li><li className='mb-2 font-nunito'><strong>Artificial Intelligence (AI) Integration:</strong> Leverage AI-powered features for tasks like clinical decision support and predictive analytics.</li><li className='mb-2 font-nunito'><strong>Mobile Access:</strong> Our EHR is accessible on any device, allowing for remote patient care and improved communication.</li></ul>"
       }
     ]
   }
@@ -505,31 +517,217 @@ export const services = [
       {
         "id": "EHRSoftwareIndia",
         "heading": "Explore Our EHR Software Revolutionary Features!",
+        "features": [
+          {
+            "heading": "Cover Pre-Hospitalization Expenses",
+            "shortDescription": "",
+            "longDescription": "<p>Under this Yojana, people will be able to get the benefit that the consultation and examination expenses will be covered. They will not need to pay any additional amount at the Hospital to support Pradhan Mantri Jan Arogya Yojana. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Cover Pre-Hospitalization Expenses",
+            "shortDescription": "",
+            "longDescription": "<p>Certain conditions require hospitalization. Under the PMJAY, expenses are covered. Individuals need not concern themselves with how they will handle their expenses. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Diagnostic Procedure Expense",
+            "shortDescription": "",
+            "longDescription": "<p>Several Diagnostic techniques are there that are very expensive. If a person can access an Ayushman Bharat card, they can get the amount for the Diagnostic procedures. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Accommodation",
+            "shortDescription": "",
+            "longDescription": "<p>The same expenses will also be covered if a person is dealing with such health conditions that require additional accommodation. There is a particular criterion that is important to follow for it. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Food Delivery",
+            "shortDescription": "",
+            "longDescription": "<p>There are times when people do not have food available. At that time, they avail the services from the government of India. Under PMJAY, food delivery is free. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "image": ""
+          }
+        ],
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>"
       },
       {
         "id": "EHRSoftwareUSA",
         "heading": "Explore Our EHR Software Revolutionary Features!",
+        "features": [
+          {
+            "heading": "Cover Pre-Hospitalization Expenses",
+            "shortDescription": "",
+            "longDescription": "<p>Under this Yojana, people will be able to get the benefit that the consultation and examination expenses will be covered. They will not need to pay any additional amount at the Hospital to support Pradhan Mantri Jan Arogya Yojana. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Cover Pre-Hospitalization Expenses",
+            "shortDescription": "",
+            "longDescription": "<p>Certain conditions require hospitalization. Under the PMJAY, expenses are covered. Individuals need not concern themselves with how they will handle their expenses. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Diagnostic Procedure Expense",
+            "shortDescription": "",
+            "longDescription": "<p>Several Diagnostic techniques are there that are very expensive. If a person can access an Ayushman Bharat card, they can get the amount for the Diagnostic procedures. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Accommodation",
+            "shortDescription": "",
+            "longDescription": "<p>The same expenses will also be covered if a person is dealing with such health conditions that require additional accommodation. There is a particular criterion that is important to follow for it. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Food Delivery",
+            "shortDescription": "",
+            "longDescription": "<p>There are times when people do not have food available. At that time, they avail the services from the government of India. Under PMJAY, food delivery is free. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "image": ""
+          }
+        ],
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>"
       },
       {
         "id": "EMRSoftware",
-        "heading": "Explore Our EMR Software Revolutionary Features!",
+        "heading": "EMR Software: What's New?",
+        "features": [
+          {
+            "heading": "Cloud-Based EMR",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Scalability and Accessibility:</strong> Cloud-based EMRs offer flexibility and scalability, allowing healthcare providers to access patient data from anywhere.</li><li class='mb-2 font-nunito'><strong>Reduced Costs:</strong> Eliminates the need for on-premise hardware and software maintenance, reducing costs.</li><li class='mb-2 font-nunito'><strong>Data Security:</strong> Cloud providers offer data encryption and regular backups, enhancing security.</li><li class='mb-2 font-nunito'><strong>Disaster Recovery:</strong> Cloud-based solutions enable rapid recovery of patient data during emergencies.</li></ul>",
+            "image": ""
+          },
+          {
+            "heading": "Interoperability",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Data Exchange:</strong> EMRs are increasingly designed to seamlessly exchange data with other healthcare systems, improving patient care coordination.</li><li class='mb-2 font-nunito'><strong>Health Information Exchanges (HIEs):</strong> Integration with HIEs enables access to a broader range of patient information.</li><li class='mb-2 font-nunito'><strong>Standard Protocols:</strong> Use of standard data formats like HL7 ensures compatibility across systems.</li><li class='mb-2 font-nunito'><strong>Cross-Platform Access:</strong> Allows medical professionals to access patient data across different platforms and devices.</li></ul>",
+            "image": ""
+          },
+          {
+            "heading": "Patient Portals",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Patient Engagement:</strong> Patient portals provide secure access to their medical records, allowing for better communication and engagement.</li><li class='mb-2 font-nunito'><strong>Self-Scheduling:</strong> Patients can schedule appointments, request refills, and access test results online.</li><li class='mb-2 font-nunito'><strong>Health Education:</strong> Provides educational resources to help patients understand their conditions and treatments.</li><li class='mb-2 font-nunito'><strong>Billing Transparency:</strong> Allows patients to view and pay bills online, ensuring transparency.</li></ul>",
+            "image": ""
+          },
+          {
+            "heading": "Mobile Health (mHealth)",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Remote Monitoring:</strong> EMRs can integrate with wearable devices and mobile apps for remote patient monitoring.</li><li class='mb-2 font-nunito'><strong>Telehealth:</strong> Enables virtual consultations and care delivery.</li><li class='mb-2 font-nunito'><strong>Real-Time Alerts:</strong> Sends notifications to healthcare providers if patients' health parameters go beyond safe limits.</li><li class='mb-2 font-nunito'><strong>Medication Reminders:</strong> Mobile apps can remind patients to take their medication on time.</li></ul>",
+            "image": ""
+          },
+          {
+            "heading": "Cybersecurity",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Data Protection:</strong> With the increasing reliance on electronic health records, cybersecurity measures are essential to protect patient data.</li><li class='mb-2 font-nunito'><strong>Compliance:</strong> EMRs must adhere to strict data privacy regulations like HIPAA.</li><li class='mb-2 font-nunito'><strong>Encryption:</strong> Patient data is encrypted to ensure privacy during storage and transmission.</li><li class='mb-2 font-nunito'><strong>Access Control:</strong> Role-based access ensures that only authorized personnel can view or modify patient records.</li></ul>",
+            "image": ""
+          }
+        ],
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>"
       },
       {
         "id": "PMJAY",
         "heading": "Explore Our Revolutionary Features!",
-        "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>"
+        "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>",
+        "features": [
+          {
+            "heading": "Cover Pre-Hospitalization Expenses",
+            "shortDescription": "",
+            "longDescription": "<p>Under this Yojana, people will be able to get the benefit that the consultation and examination expenses will be covered. They will not need to pay any additional amount at the Hospital to support Pradhan Mantri Jan Arogya Yojana. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Cover Pre-Hospitalization Expenses",
+            "shortDescription": "",
+            "longDescription": "<p>Certain conditions require hospitalization. Under the PMJAY, expenses are covered. Individuals need not concern themselves with how they will handle their expenses. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Diagnostic Procedure Expense",
+            "shortDescription": "",
+            "longDescription": "<p>Several Diagnostic techniques are there that are very expensive. If a person can access an Ayushman Bharat card, they can get the amount for the Diagnostic procedures. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Accommodation",
+            "shortDescription": "",
+            "longDescription": "<p>The same expenses will also be covered if a person is dealing with such health conditions that require additional accommodation. There is a particular criterion that is important to follow for it. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Food Delivery",
+            "shortDescription": "",
+            "longDescription": "<p>There are times when people do not have food available. At that time, they avail the services from the government of India. Under PMJAY, food delivery is free. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "image": ""
+          }
+        ]
       },
       {
         "id": "HIS",
         "heading": "Explore Our Health Information System's Revolutionary Features!",
+        "features": [
+          {
+            "heading": "Cover Pre-Hospitalization Expenses",
+            "shortDescription": "",
+            "longDescription": "<p>Under this Yojana, people will be able to get the benefit that the consultation and examination expenses will be covered. They will not need to pay any additional amount at the Hospital to support Pradhan Mantri Jan Arogya Yojana. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Cover Pre-Hospitalization Expenses",
+            "shortDescription": "",
+            "longDescription": "<p>Certain conditions require hospitalization. Under the PMJAY, expenses are covered. Individuals need not concern themselves with how they will handle their expenses. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Diagnostic Procedure Expense",
+            "shortDescription": "",
+            "longDescription": "<p>Several Diagnostic techniques are there that are very expensive. If a person can access an Ayushman Bharat card, they can get the amount for the Diagnostic procedures. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Accommodation",
+            "shortDescription": "",
+            "longDescription": "<p>The same expenses will also be covered if a person is dealing with such health conditions that require additional accommodation. There is a particular criterion that is important to follow for it. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "image": ""
+          },
+          {
+            "heading": "Food Delivery",
+            "shortDescription": "",
+            "longDescription": "<p>There are times when people do not have food available. At that time, they avail the services from the government of India. Under PMJAY, food delivery is free. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "image": ""
+          }
+        ],
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>"
       },
       {
         "id": "EHRSoftware",
-        "heading": "Explore Our EHR Software Revolutionary Features!",
+        "heading": "Streamlining Hospital Workflow with EHR",
+        "features": [
+          {
+            "heading": "Improved Patient Care",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Accurate and Accessible Information:</strong> EHRs provide real-time access to comprehensive patient records, enabling informed decision-making and personalized care.</li><li class='mb-2 font-nunito'><strong>Reduced Errors:</strong> By eliminating manual data entry and minimizing transcription errors, EHRs enhance patient safety.</li><li class='mb-2 font-nunito'><strong>Enhanced Communication:</strong> EHRs facilitate seamless communication between healthcare providers, improving care coordination and reducing medical errors.</li></ul>",
+            "image": ""
+          },
+          {
+            "heading": "Increased Efficiency",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Streamlined Workflow:</strong> EHRs automate administrative tasks, such as scheduling appointments, generating prescriptions, and billing, freeing up staff time for patient care.</li><li class='mb-2 font-nunito'><strong>Reduced Paperwork:</strong> By eliminating paper charts, EHRs reduce the burden of managing and storing physical records.</li><li class='mb-2 font-nunito'><strong>Improved Data Analytics:</strong> EHRs enable data-driven decision-making by providing valuable insights into patient outcomes, resource utilization, and quality of care.</li></ul>",
+            "image": ""
+          },
+          {
+            "heading": "Enhanced Financial Performance",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Improved Billing:</strong> EHRs can automate billing processes, reducing errors and improving revenue cycle management.</li><li class='mb-2 font-nunito'><strong>Cost Reduction:</strong> By streamlining operations and reducing administrative overhead, EHRs can help hospitals improve their financial performance.</li></ul>",
+            "image": ""
+          },
+          {
+            "heading": "Enhanced Compliance",
+            "shortDescription": "",
+            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Adherence to Regulations:</strong> EHRs can help healthcare organizations comply with regulatory requirements, such as HIPAA and Meaningful Use.</li><li class='mb-2 font-nunito'><strong>Quality Improvement:</strong> EHRs support quality improvement initiatives by providing data for measuring and improving outcomes.</li></ul>",
+            "image": ""
+          }
+        ],
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>"
       }
     ]
