@@ -14,6 +14,8 @@ const ABHA: React.FC = () => {
 
   const sectionData = contentData.sections.find(section => section.id === 'ABHA');
   const sectionDataFeatures = contentDataFeatures.sections.find(section => section.id === 'ABHA');
+ console.log("sectionDataFeatures ",sectionDataFeatures);
+ 
   const sectionDatatwo = contentData.sections.find(section => section.id === 'ABHA2');
   if (!sectionData || !sectionDataFeatures || !sectionDatatwo) {
     return <p>Content not found.</p>;
@@ -30,6 +32,7 @@ const ABHA: React.FC = () => {
         <FeaturesCD
           heading={sectionDataFeatures.heading}
           description={sectionDataFeatures.description}
+          featuresData={sectionDataFeatures.features}
         />
         <ImageWithDescription
           image={sectionDatatwo.image}

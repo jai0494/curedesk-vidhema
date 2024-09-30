@@ -12,10 +12,11 @@ const ServicesSectionPoint : React.FC<ServicesSectionPoint> = ({ heading }) =>  
 
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-3 gap-y-6 md:gap-y-12 lg:gap-y-24 md:pt-20 pt-12">
         {[
+          
           {
-            title: 'Improved Efficiency',
-            description: 'Gain a comprehensive understanding of your industry landscape.',
-            icon: (
+            "title": "Dashboard",
+            "description": "Our software intuitively demonstrates medical information in a comprehensive format, enabling quick retrieval of patient and hospital data for enhanced efficiency.",
+            "icon": (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -26,18 +27,18 @@ const ServicesSectionPoint : React.FC<ServicesSectionPoint> = ({ heading }) =>  
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-menu h-10 w-10 text-primary"
+                className="lucide lucide-dashboard h-10 w-10 text-primary"
               >
-                <line x1="4" x2="20" y1="12" y2="12" />
-                <line x1="4" x2="20" y1="6" y2="6" />
-                <line x1="4" x2="20" y1="18" y2="18" />
+                <rect width="20" height="20" x="2" y="2" rx="2" />
+                <line x1="2" x2="22" y1="12" y2="12" />
+                <line x1="12" x2="12" y1="2" y2="22" />
               </svg>
-            ),
+            )
           },
           {
-            title: 'Enhanced Patient Care',
-            description: 'Evaluate the viability and potential of new products or services.',
-            icon: (
+            "title": "Individualized Template",
+            "description": "We have created smart templates tailored to meet the specific needs of individual specialists, ensuring compliance with legal documentation requirements.",
+            "icon": (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -48,18 +49,19 @@ const ServicesSectionPoint : React.FC<ServicesSectionPoint> = ({ heading }) =>  
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-lightbulb h-10 w-10 text-primary"
+                className="lucide lucide-template h-10 w-10 text-primary"
               >
-                <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
-                <path d="M9 18h6" />
-                <path d="M10 22h4" />
+                <rect width="20" height="20" x="2" y="2" rx="2" />
+                <line x1="2" x2="22" y1="8" y2="8" />
+                <line x1="2" x2="22" y1="12" y2="12" />
+                <line x1="2" x2="22" y1="16" y2="16" />
               </svg>
-            ),
+            )
           },
           {
-            title: 'Accurate Billing',
-            description: 'Benchmark your performance against competitors, identify strengths.',
-            icon: (
+            "title": "Patient Health Portal",
+            "description": "Our software assimilates patient healthcare data, facilitating better diagnosis and promoting efficient medical treatment.",
+            "icon": (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -70,18 +72,17 @@ const ServicesSectionPoint : React.FC<ServicesSectionPoint> = ({ heading }) =>  
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-bar-chart-big h-10 w-10 text-primary"
+                className="lucide lucide-portal h-10 w-10 text-primary"
               >
-                <path d="M3 3v18h18" />
-                <rect width="4" height="7" x="7" y="10" rx="1" />
-                <rect width="4" height="12" x="15" y="5" rx="1" />
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2v10h10" />
               </svg>
-            ),
+            )
           },
           {
-            title: 'Cost Savings',
-            description: 'Anticipate market shifts and emerging trends to stay ahead of the curve.',
-            icon: (
+            "title": "Digital Prescription",
+            "description": "Our software facilitates virtual prescriptions, maintaining accurate records and enabling quick access to medical information.",
+            "icon": (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -92,17 +93,351 @@ const ServicesSectionPoint : React.FC<ServicesSectionPoint> = ({ heading }) =>  
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-codepen h-10 w-10 text-primary"
+                className="lucide lucide-prescription h-10 w-10 text-primary"
               >
-                <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2" />
-                <line x1="12" x2="12" y1="22" y2="15.5" />
-                <polyline points="22 8.5 12 15.5 2 8.5" />
-                <polyline points="2 15.5 12 8.5 22 15.5" />
-                <line x1="12" x2="12" y1="2" y2="8.5" />
+                <rect width="20" height="20" x="2" y="2" rx="2" />
+                <path d="M6 10h12" />
+                <path d="M6 14h12" />
               </svg>
-            ),
+            )
           },
-          // Add remaining sections with their corresponding title, description, and icon
+          {
+            "title": "Real-Time Medical Reports",
+            "description": "Our software enhances data quality by recording instantaneous medical information, thereby accelerating the treatment process.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-report h-10 w-10 text-primary"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="2" />
+                <line x1="12" y1="2" x2="12" y2="22" />
+              </svg>
+            )
+          },
+          {
+            "title": "Cross-System Interoperability",
+            "description": "Our software ensures seamless exchange of medical data among healthcare departments, providing the best electronic medical record capabilities.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-interoperability h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "Cloud-Based EMR",
+            "description": "We securely store all healthcare data in a unified server, enhancing coordination among medical experts.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-cloud h-10 w-10 text-primary"
+              >
+                <path d="M3 12h18" />
+                <path d="M12 3v18" />
+              </svg>
+            )
+          },
+          {
+            "title": "Seamless Medication Integration",
+            "description": "Our hospital software reconciles all healthcare medication information, ensuring updates are precise and comprehensive.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-medication h-10 w-10 text-primary"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="2" />
+                <line x1="10" y1="10" x2="14" y2="14" />
+              </svg>
+            )
+          },
+          {
+            "title": "Secure Virtual Monitoring",
+            "description": "Our software allows monitoring and tracking of medical records using any digital device, aiding in post-surgical care.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-monitoring h-10 w-10 text-primary"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="2" />
+                <line x1="12" y1="2" x2="12" y2="22" />
+              </svg>
+            )
+          },
+          {
+            "title": "Digital Medical Access",
+            "description": "Our software enables users to connect remotely with healthcare providers, assisting patients in maintaining routine medical activities.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-access h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "Population Health Management",
+            "description": "Our software interconnects with various tools to improve citizens’ health and nurture a healthier ecosystem.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-population h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "Appointment Management",
+            "description": "Our software manages all appointments within a single platform, eliminating traditional queue systems.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-appointment h-10 w-10 text-primary"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="2" />
+                <line x1="2" y1="10" x2="22" y2="10" />
+              </svg>
+            )
+          },
+          {
+            "title": "Pharmacy Integration",
+            "description": "Our software handles all pharmaceutical operations, from receiving prescriptions to medication billing, while also establishing a digital pharmacy at no cost.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-pharmacy h-10 w-10 text-primary"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="2" />
+                <path d="M6 10h12" />
+                <path d="M6 14h12" />
+              </svg>
+            )
+          },
+          {
+            "title": "Automated Operational Process",
+            "description": "We reduce administrative burdens by smoothly conducting operational activities such as patient data recording and appointment management.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-automation h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "Virtual Health Monitoring",
+            "description": "Our software assists in tracking patient data to assess disease severity, allowing medical providers to suggest preventive measures effectively.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-monitor h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "Laboratory Integration",
+            "description": "Our software facilitates communication between patients and laboratory teams, enabling remote receipt of test results while adhering to standardized protocols.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-laboratory h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "AI Chatbots",
+            "description": "We simplify the patient inquiry process by incorporating AI chatbots, providing instant solutions to patient queries.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-chat h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "E-Test Reports",
+            "description": "Our software compiles individual patients' test reports and records them in a well-defined format, enabling virtual report delivery.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-test h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "Radiology Picture Acquisition",
+            "description": "Our hospital software is equipped to capture radiology images with high resolution, enhancing the quality of medical imaging.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-radiology h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          },
+          {
+            "title": "Compiling Large Hospital Data",
+            "description": "Our software collects extensive hospital data, organizing medical information into structured formats, and generating visual medical reports for better analysis.",
+            "icon": (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-data h-10 w-10 text-primary"
+              >
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
+              </svg>
+            )
+          } // Add remaining sections with their corresponding title, description, and icon
         ].map((service, index) => (
           <div className="text-center" key={index}>
             <div className="flex items-center justify-center">
