@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { features } from '../json/dropdownData';
+// import { features } from '../json/dropdownData';
 
 interface FeaturesCDProps {
   heading: string;
