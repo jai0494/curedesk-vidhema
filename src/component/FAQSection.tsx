@@ -14,11 +14,11 @@ const FAQSection = () => {
     },
     {
       question: "Why should I choose your curedesk management software over others",
-      answer: "Curedesk management software is designed specifically to meet the needs of healthcare professionals. It offers an intuitive user interface, seamless patient management, appointment scheduling, and billing features. Unlike generic solutions, our software is tailored for clinics, providing features like electronic medical records (EMR), treatment plans, and integration with diagnostic tools, which ensures an efficient workflow."
+      answer: "The Curedesk management software is designed specifically to meet the needs of healthcare professionals. It offers an intuitive user interface, seamless patient management, appointment scheduling, and billing features. Unlike generic solutions, our software is tailored for clinics, providing features like electronic medical records (EMR), treatment plans, and integration with diagnostic tools, which ensures an efficient workflow."
     },
     {
-      question: "How does your Curedesk improve clinic operations?",
-      answer: "Curedesk streamlines every aspect of clinic operations—from patient registration to billing—by automating repetitive tasks. Appointment scheduling, patient follow-ups, and reminders are automated, reducing manual effort and errors. In addition, the software provides real-time reporting and analytics, helping you make data-driven decisions to optimize clinic performance."
+      question: "How does your The Curedesk improve clinic operations?",
+      answer: "The Curedesk streamlines every aspect of clinic operations—from patient registration to billing—by automating repetitive tasks. Appointment scheduling, patient follow-ups, and reminders are automated, reducing manual effort and errors. In addition, the software provides real-time reporting and analytics, helping you make data-driven decisions to optimize clinic performance."
     },
   ];
 

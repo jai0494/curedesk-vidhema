@@ -9,7 +9,7 @@ const TextImageSection = () => {
             Because you’d probably be a little confused if we suggested you complicate your everyday business tasks instead.
           </p>
       <img
-        src="/All-in-one-solution-of-Curedesk.jpg" // Replace with your image URL
+        src="/All-in-one-solution-of-The Curedesk.jpg" // Replace with your image URL
         alt="Descriptive Alt Text"
         className="w-full max-w-[800px] rounded-lg"
       />

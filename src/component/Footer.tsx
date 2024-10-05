@@ -10,7 +10,7 @@ const Footer = () => {
               <Link to="/">
               
               <img src="/logo-light.svg" alt='Logo' className='h-[50px]' />
-              <span className='font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[129px] text-[2rem]'>Curedesk</span>
+              <span className='font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[129px] text-[2rem]'>The Curedesk</span>
               </Link>
             </div>
             <p className="block antialiased font-sans text-inherit text-md mt-0 mb-2 font-normal !text-gray-600 font-nunito">

@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
             <Link to="/">
               <img src="/logo-light.svg" alt="Logo" className="h-[50px]" />
               <span className="font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[129px] text-[2rem]">
-                Curedesk
+                The Curedesk
               </span>
             </Link>
           </div>

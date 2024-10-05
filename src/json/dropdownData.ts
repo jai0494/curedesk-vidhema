@@ -42,7 +42,7 @@ export const services = [
           {
             "heading": "Reception Management",
             "shortDescription": "The reception management tool in the HMIS system is crucial. It will enhance your experience at the front desk.",
-            "longDescription": "The smooth operation of patient check-ins and appointments is ensured by this helpful software. Because every step of the process is streamlined, productivity is increased. Make administrative tasks simpler, make appointments with ease, easily collect HMIS data and give employees more time to give excellent patient care. Reception Management Curedesk Install our intuitive HMIS programme. The entire patient experience is enhanced by it. This is going to help your medical facility. Our HMIS software's Reception Management feature is also flexible, ensuring a seamless connection with your ongoing procedures. No matter the size of your clinic or hospital, this flexible equipment can be adjusted to meet your unique needs.",
+            "longDescription": "The smooth operation of patient check-ins and appointments is ensured by this helpful software. Because every step of the process is streamlined, productivity is increased. Make administrative tasks simpler, make appointments with ease, easily collect HMIS data and give employees more time to give excellent patient care. Reception Management The Curedesk Install our intuitive HMIS programme. The entire patient experience is enhanced by it. This is going to help your medical facility. Our HMIS software's Reception Management feature is also flexible, ensuring a seamless connection with your ongoing procedures. No matter the size of your clinic or hospital, this flexible equipment can be adjusted to meet your unique needs.",
             "image": "assets/images/tab1.jpg"
           },
           {
@@ -118,7 +118,7 @@ export const services = [
 
   export const featuresSp = [
     {
-      "title": "Why Choose Curedesk's EMR For Gastroenterologists",
+      "title": "Why Choose The Curedesk's EMR For Gastroenterologists",
       "description": "Focused on achieving",
       "image": "/demo/gastroenterologists.jpg",
       "learnMoreLink": "#",
@@ -192,7 +192,7 @@ export const services = [
       ]
     },
     {
-      "title": "Curedesk: Leading the Healthcare Revolution",
+      "title": "The Curedesk: Leading the Healthcare Revolution",
       "description": "Focused on achieving",
       "image": "/why-choose-3-1.webp",
       "learnMoreLink": "#",
@@ -238,7 +238,7 @@ export const services = [
       ]
     },
     {
-      "title": "Curedesk EMR: The Best Choice for Gynaecologists",
+      "title": "The Curedesk EMR: The Best Choice for Gynaecologists",
       "description": "Achieving Your Potential",
       "image": "/demo/gyna.jpg",
       "learnMoreLink": "#",
@@ -302,7 +302,7 @@ export const services = [
       "heading": "Best EMR Software For Gastroenterologists"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of Using Curedesk For Gastroenterologists"
+      "heading1": "Benefits Of Using The Curedesk For Gastroenterologists"
       },
     },
     "Pulmonologist":{
@@ -310,7 +310,7 @@ export const services = [
       "heading": "Best EMR Software For Pulmonologist"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of Using Curedesk For Pulmonologist"
+      "heading1": "Benefits Of Using The Curedesk For Pulmonologist"
       },
     },
     "Gynecologist":{
@@ -318,7 +318,7 @@ export const services = [
       "heading": "Best EMR Software For Gynecologist"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of Using Curedesk For Gynecologist"
+      "heading1": "Benefits Of Using The Curedesk For Gynecologist"
       },
     },
     "ABHA": {
@@ -326,7 +326,7 @@ export const services = [
       "heading": "Ayushman Bharat Health Account​"
       },
       "specialityBanner1": {
-      "heading1": "What Are The Benefits Of An Curedesk Software with ABHA"
+      "heading1": "What Are The Benefits Of An The Curedesk Software with ABHA"
       },
     },
     "PMJAY": {
@@ -334,15 +334,15 @@ export const services = [
       "heading": "PMJAY Scheme​"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of Curedesk with PM-JAY"
+      "heading1": "Benefits Of The Curedesk with PM-JAY"
       },
     },
     "About": {
       "specialityBanner": {
-      "heading": "Curious about Curedesk?​"
+      "heading": "Curious about The Curedesk?​"
       },
       "specialityBanner1": {
-      "heading1": "Benefits Of Curedesk"
+      "heading1": "Benefits Of The Curedesk"
       },
     },
     "HMIS": {
@@ -352,12 +352,12 @@ export const services = [
     },
     "EMRSoftware": {
       "specialityBanner1": {
-      "heading1": "Unlock the power of Curedesk with EMR functionalities"
+      "heading1": "Unlock the power of The Curedesk with EMR functionalities"
       },
     },
     "EHRSoftware": {
       "specialityBanner1": {
-      "heading1": "The Positive Impact of Curedesk's EHR"
+      "heading1": "The Positive Impact of The Curedesk's EHR"
       },
     },
     EHRSoftwareIndia: {

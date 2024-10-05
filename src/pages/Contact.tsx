@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
       });
       const jsonResponse = await response.json();
       console.log("jsonResponse",jsonResponse)
-      toast.success("Thank you for contacting Us. Curedesk team will contact you soon");
+      toast.success("Thank you for contacting Us. The Curedesk team will contact you soon");
       // Check for specific error messages
       if (jsonResponse.message.includes('already exist')) {
         setResultMessage(jsonResponse.message); // Show server message if email or number already exists

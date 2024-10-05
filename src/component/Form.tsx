@@ -51,7 +51,7 @@ const Form: React.FC = () => {
           email: '',
           type: '',
         });
-        toast.success("Thank you for contacting Us. Curedesk team will contact you soon");
+        toast.success("Thank you for contacting Us. The Curedesk team will contact you soon");
       }
     } catch (error: any) {
       if (error.response && error.response.data.message === "User with this mobile No. or Email Id already exist") {
