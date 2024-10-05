@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
           <div className="text-gray-500 font-bold text-xl relative">
             <Link to="/">
               <img src="/logo-light.svg" alt="Logo" className="h-[50px]" />
-              <span className="font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[129px] text-[2rem]">
+              <span className="font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[216px] text-[2rem]">
                 The Curedesk
               </span>
             </Link>
