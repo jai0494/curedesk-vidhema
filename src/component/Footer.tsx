@@ -41,9 +41,9 @@ const Footer = () => {
                 <span className="text-md mb-4 block font-bold text-slate-600 font-nunito">Company</span>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="/contact" target="_blank" rel="noreferrer" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
+                    <Link to="/contact" className="inline pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#" target="_blank" rel="noreferrer" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
@@ -57,24 +57,19 @@ const Footer = () => {
                 <span className="text-md mb-4 block font-bold font-nunito text-slate-600">Links</span>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#" rel="noreferrer" target="_blank" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      <Link to="/ABHA">ABHA</Link>
-                    </a>
+                    <Link className="inline pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito" to="/ABHA">ABHA</Link>
+                    
                   </li>
                   <li>
-                    <a href="#" rel="noreferrer" target="_blank" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      <Link to="/PMJAY">PMJAY</Link>
-                    </a>
+                      <Link className="inline pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito" to="/PMJAY">PMJAY</Link>
                   </li>
                   <li>
-                    <a href="#" rel="noreferrer" target="_blank" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                    <Link to="/services/EMRSoftware">EMR Software</Link>
-                    </a>
+                    <Link className="inline pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito" to="/services/EMRSoftware">EMR Software</Link>
+                    
                   </li>
                   <li>
-                    <a href="/#" rel="noreferrer" target="_self" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                    <Link to="/services/EHRSoftware">EHR Software</Link>
-                    </a>
+                    <Link className="inline pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito" to="/services/EHRSoftware">EHR Software</Link>
+                    
                   </li>
                 </ul>
               </div>
@@ -82,14 +77,12 @@ const Footer = () => {
                 <span className="text-md mb-4 block font-bold text-slate-600 font-nunito">Country Wise Solutions</span>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#" rel="noreferrer" target="_self" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      <Link to="/EHRSoftwareIndia">Best EHR Software in India</Link>
-                    </a>
+                    <Link className="inline pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito" to="/EHRSoftwareIndia">Best EHR Software in India</Link>
+                    
                   </li>
                   <li>
-                    <a href="#" rel="noreferrer" target="_self" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
-                      <Link to="/EHRSoftwareUSA">Best EHR Software in USA</Link>
-                    </a>
+                    <Link className="inline pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito" to="/EHRSoftwareUSA">Best EHR Software in USA</Link>
+                    
                   </li>
                 </ul>
               </div>

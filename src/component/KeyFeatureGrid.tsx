@@ -1,8 +1,8 @@
 const features = [
   {
     title: 'Talk to our team for assistance',
-    link: 'tel:+919530138389',
-    description: '+91-9530138389',
+    link: 'tel:+918302527500',
+    description: '+91-8302527500',
     icon: 'images/icons/feature-icon-1.svg',
   },
   {
