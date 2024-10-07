@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
+import ModalComponent from "./ModalComponent";
+import { useState } from "react";
 
 const Footer = () => {
+  const [open, setOpen] = useState(false);
+  
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   return (
     <footer className="relative z-50 bg-white md:px-8 pt-6 pb-3 border-[1.5px] border-blue-gray-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -46,7 +52,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank" rel="noreferrer" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
+                    <a onClick={handleOpen} target="_blank" rel="noreferrer" className="block pb-2 text-sm font-normal leading-relaxed text-gray-600 transition-colors hover:text-primary font-nunito">
                       Book Appointment
                     </a>
                   </li>
@@ -106,6 +112,7 @@ const Footer = () => {
         </div>
         
       </div>
+      <ModalComponent open={open} handleClose={handleClose} title="Book an Appointment" />
     </footer>
   );
 };
