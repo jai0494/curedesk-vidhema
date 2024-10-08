@@ -13,7 +13,7 @@ const ServiceMain: React.FC<ServiceMainProps> = ({ heading, subheading }) => {
     >
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 items-center">
-          <div className="text-sm py-20 px-10">
+          <div className="text-sm py-20 px-10 md:py-0">
             <h1 className="md:text-6xl/tight text-4xl text-dark tracking-normal leading-normal text-slate-900 font-bold font-nunito mb-4 mt-6">
               {heading}
             </h1>

@@ -10,7 +10,7 @@ const HealthSection = () => {
       data-category="headers-dark-mix"
       data-component-id="3bde255e_03_awz"
       data-custom-component-id="514833"
-      className="relative bg-white overflow-hidden mt-20"
+      className="relative bg-white overflow-hidden md:mt-[60px]"
     >
       <div
         className="md:py-5 md:py-0 md:pt-0 bg-coolGray-900"
