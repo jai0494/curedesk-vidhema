@@ -26,11 +26,11 @@ export const services = [
 
   export const clients  =[
     { "src": "/testimonial/1.webp", "alt": "testimonial Logo" },
-    { "src": "/testimonial/2.webp", "alt": "testimonial Logo" },
+    { "src": "/testimonial/cliniclogo.svg", "alt": "testimonial Logo" },
     { "src": "/testimonial/3.webp", "alt": "testimonial Logo" },
-    { "src": "/testimonial/4.webp", "alt": "testimonial Logo" },
+    { "src": "/testimonial/cliniclogo1.svg", "alt": "testimonial Logo" },
     { "src": "/testimonial/5.webp", "alt": "testimonial Logo" },
-    { "src": "/testimonial/6.webp", "alt": "testimonial Logo" }
+    { "src": "/testimonial/cliniclogo2.svg", "alt": "testimonial Logo" }
   ]
 
 
@@ -347,7 +347,7 @@ export const services = [
     },
     "HMIS": {
       "specialityBanner1": {
-      "heading1": "Here's What The Best Hospital Management Information System Software Can Do HMIS"
+      "heading1": "Here's What The Best Hospital Management Information System Software Can Do"
       },
     },
     "EMRSoftware": {
@@ -381,7 +381,7 @@ export const services = [
       { name: 'Interactive reports', title: 'Reports are created with the blink of an eye. Therefore, it supports major healthcare decisions and visualizes data at glance.', time: '' },
     ],
     'April 6': [
-      { name: 'ICD - 10 Codes', title: 'These are particular digitas for every disease and symptom. Moreover, it helps us to monitor disease.', time: '' },
+      { name: 'Inventory management', title: 'With our system, allowing you to track medical supplies and equipment in real-time. You can ensure optimal stock levels', time: '' },
     ],
   };
 
@@ -402,7 +402,7 @@ export const services = [
     },
     HIS: {
       specialityBanner1: {
-        headingS: "Enhance Efficiency with Hospital HIS Solution",
+        headingS: "Enhance Efficiency with HIS Solution",
         subheadingS: "Efficiently manage appointments, patient records, billing, and more with our user-friendly clinic management solution"
       }
     }
@@ -519,33 +519,33 @@ export const services = [
         "heading": "Explore Our EHR Software Revolutionary Features!",
         "features": [
           {
-            "heading": "Cover Pre-Hospitalization Expenses",
+            "heading": "Curedesk userbase",
             "shortDescription": "",
-            "longDescription": "<p>Under this Yojana, people will be able to get the benefit that the consultation and examination expenses will be covered. They will not need to pay any additional amount at the Hospital to support Pradhan Mantri Jan Arogya Yojana. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>CureDesk is a versatile clinic management solution that empowers healthcare professionals to deliver high-quality care. Whether you're a small clinic or a large hospital, CureDesk can adapt to your unique needs and help you streamline your operations.</p><p> Our platform offers a wide range of features, including patient records, appointment scheduling, billing and insurance management, and reporting. CureDesk's scalable architecture ensures that your practice can grow and evolve without compromising on efficiency.</p>",
             "image": ""
           },
           {
-            "heading": "Cover Pre-Hospitalization Expenses",
+            "heading": "Key Features",
             "shortDescription": "",
-            "longDescription": "<p>Certain conditions require hospitalization. Under the PMJAY, expenses are covered. Individuals need not concern themselves with how they will handle their expenses. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>The CureDesk offers a comprehensive range of features to streamline clinic management, including:<ul><li class='mb-2'><strong>Electronic Health Records (EHR):</strong> Easily store, manage, and access patient medical records.</li><li class='mb-2'><strong>Patient Appointment Scheduling:</strong> Simplify scheduling, reminders, and patient follow-ups.</li><li class='mb-2'><strong>Secure Data Storage:</strong> Ensure data privacy and security with advanced encryption.</li><li class='mb-2'><strong>Billing and Invoicing:</strong> Automate billing processes and manage invoices efficiently.</li></ul></p>",
             "image": ""
           },
           {
-            "heading": "Diagnostic Procedure Expense",
+            "heading": "Billing and Invoicing",
             "shortDescription": "",
-            "longDescription": "<p>Several Diagnostic techniques are there that are very expensive. If a person can access an Ayushman Bharat card, they can get the amount for the Diagnostic procedures. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "longDescription": "<p>Experience the power of seamless integration with our billing system. As part of our comprehensive hospital information management system, our billing module provides a streamlined solution for your financial needs. Enjoy improved data accuracy, reduced errors, and enhanced reporting capabilities. </p><p>Our system is designed to optimize your revenue cycle and help you make informed decisions based on real-time data.</p>",
             "image": ""
           },
           {
-            "heading": "Accommodation",
+            "heading": "Role And Access management",
             "shortDescription": "",
-            "longDescription": "<p>The same expenses will also be covered if a person is dealing with such health conditions that require additional accommodation. There is a particular criterion that is important to follow for it. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>Our role and access management system empowers administrators to precisely control data access, ensuring compliance and protecting sensitive information. By setting time limits for data viewing, you can mitigate risks and maintain a culture of responsibility.</p><p> Our system is designed to adapt to your changing needs, allowing you to adjust access privileges as roles and responsibilities evolve. This flexibility enhances operational efficiency while minimizing the risk of unauthorized access.</p>",
             "image": ""
           },
           {
-            "heading": "Food Delivery",
+            "heading": "SMS, WhatsApp, and Email Integration",
             "shortDescription": "",
-            "longDescription": "<p>There are times when people do not have food available. At that time, they avail the services from the government of India. Under PMJAY, food delivery is free. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "longDescription": "<p>Streamline patient communication with our compliant messaging platform. We facilitate secure exchange of billing details, prescriptions, and other vital information via email, SMS, and WhatsApp. Our user-friendly interface and robust functionality make it easy for your staff to send personalized messages that enhance patient engagement and satisfaction. </p><p>By ensuring secure and compliant communication channels, we help you deliver individualized care with confidence</p>",
             "image": ""
           }
         ],
@@ -556,33 +556,33 @@ export const services = [
         "heading": "Explore Our EHR Software Revolutionary Features!",
         "features": [
           {
-            "heading": "Cover Pre-Hospitalization Expenses",
+            "heading": "Curedesk userbase",
             "shortDescription": "",
-            "longDescription": "<p>Under this Yojana, people will be able to get the benefit that the consultation and examination expenses will be covered. They will not need to pay any additional amount at the Hospital to support Pradhan Mantri Jan Arogya Yojana. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>CureDesk is a versatile clinic management solution that empowers healthcare professionals to deliver high-quality care. Whether you're a small clinic or a large hospital, CureDesk can adapt to your unique needs and help you streamline your operations.</p><p> Our platform offers a wide range of features, including patient records, appointment scheduling, billing and insurance management, and reporting. CureDesk's scalable architecture ensures that your practice can grow and evolve without compromising on efficiency.</p>",
             "image": ""
           },
           {
-            "heading": "Cover Pre-Hospitalization Expenses",
+            "heading": "Key Features",
             "shortDescription": "",
-            "longDescription": "<p>Certain conditions require hospitalization. Under the PMJAY, expenses are covered. Individuals need not concern themselves with how they will handle their expenses. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>The CureDesk offers a comprehensive range of features to streamline clinic management, including:<ul><li class='mb-2'><strong>Electronic Health Records (EHR):</strong> Easily store, manage, and access patient medical records.</li><li class='mb-2'><strong>Patient Appointment Scheduling:</strong> Simplify scheduling, reminders, and patient follow-ups.</li><li class='mb-2'><strong>Secure Data Storage:</strong> Ensure data privacy and security with advanced encryption.</li><li class='mb-2'><strong>Billing and Invoicing:</strong> Automate billing processes and manage invoices efficiently.</li></ul></p>",
             "image": ""
           },
           {
-            "heading": "Diagnostic Procedure Expense",
+            "heading": "Billing and Invoicing",
             "shortDescription": "",
-            "longDescription": "<p>Several Diagnostic techniques are there that are very expensive. If a person can access an Ayushman Bharat card, they can get the amount for the Diagnostic procedures. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "longDescription": "<p>Experience the power of seamless integration with our billing system. As part of our comprehensive hospital information management system, our billing module provides a streamlined solution for your financial needs. Enjoy improved data accuracy, reduced errors, and enhanced reporting capabilities. </p><p>Our system is designed to optimize your revenue cycle and help you make informed decisions based on real-time data.</p>",
             "image": ""
           },
           {
-            "heading": "Accommodation",
+            "heading": "Role And Access management",
             "shortDescription": "",
-            "longDescription": "<p>The same expenses will also be covered if a person is dealing with such health conditions that require additional accommodation. There is a particular criterion that is important to follow for it. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>Our role and access management system empowers administrators to precisely control data access, ensuring compliance and protecting sensitive information. By setting time limits for data viewing, you can mitigate risks and maintain a culture of responsibility.</p><p> Our system is designed to adapt to your changing needs, allowing you to adjust access privileges as roles and responsibilities evolve. This flexibility enhances operational efficiency while minimizing the risk of unauthorized access.</p>",
             "image": ""
           },
           {
-            "heading": "Food Delivery",
+            "heading": "SMS, WhatsApp, and Email Integration",
             "shortDescription": "",
-            "longDescription": "<p>There are times when people do not have food available. At that time, they avail the services from the government of India. Under PMJAY, food delivery is free. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "longDescription": "<p>Streamline patient communication with our compliant messaging platform. We facilitate secure exchange of billing details, prescriptions, and other vital information via email, SMS, and WhatsApp. Our user-friendly interface and robust functionality make it easy for your staff to send personalized messages that enhance patient engagement and satisfaction. </p><p>By ensuring secure and compliant communication channels, we help you deliver individualized care with confidence</p>",
             "image": ""
           }
         ],
@@ -615,12 +615,6 @@ export const services = [
             "shortDescription": "",
             "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Remote Monitoring:</strong> EMRs can integrate with wearable devices and mobile apps for remote patient monitoring.</li><li class='mb-2 font-nunito'><strong>Telehealth:</strong> Enables virtual consultations and care delivery.</li><li class='mb-2 font-nunito'><strong>Real-Time Alerts:</strong> Sends notifications to healthcare providers if patients' health parameters go beyond safe limits.</li><li class='mb-2 font-nunito'><strong>Medication Reminders:</strong> Mobile apps can remind patients to take their medication on time.</li></ul>",
             "image": ""
-          },
-          {
-            "heading": "Cybersecurity",
-            "shortDescription": "",
-            "longDescription": "<ul><li class='mb-2 font-nunito'><strong>Data Protection:</strong> With the increasing reliance on electronic health records, cybersecurity measures are essential to protect patient data.</li><li class='mb-2 font-nunito'><strong>Compliance:</strong> EMRs must adhere to strict data privacy regulations like HIPAA.</li><li class='mb-2 font-nunito'><strong>Encryption:</strong> Patient data is encrypted to ensure privacy during storage and transmission.</li><li class='mb-2 font-nunito'><strong>Access Control:</strong> Role-based access ensures that only authorized personnel can view or modify patient records.</li></ul>",
-            "image": ""
           }
         ],
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>"
@@ -631,33 +625,33 @@ export const services = [
         "description": "<p class='text-md font-normal text-gray-500 mt-2 font-nunito'>Seamless Solutions for Efficient Operations and Exceptional Patient Care </p>",
         "features": [
           {
-            "heading": "Cover Pre-Hospitalization Expenses",
+            "heading": "Curedesk userbase",
             "shortDescription": "",
-            "longDescription": "<p>Under this Yojana, people will be able to get the benefit that the consultation and examination expenses will be covered. They will not need to pay any additional amount at the Hospital to support Pradhan Mantri Jan Arogya Yojana. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>CureDesk is a versatile clinic management solution that empowers healthcare professionals to deliver high-quality care. Whether you're a small clinic or a large hospital, CureDesk can adapt to your unique needs and help you streamline your operations.</p><p> Our platform offers a wide range of features, including patient records, appointment scheduling, billing and insurance management, and reporting. CureDesk's scalable architecture ensures that your practice can grow and evolve without compromising on efficiency.</p>",
             "image": ""
           },
           {
-            "heading": "Cover Pre-Hospitalization Expenses",
+            "heading": "Key Features",
             "shortDescription": "",
-            "longDescription": "<p>Certain conditions require hospitalization. Under the PMJAY, expenses are covered. Individuals need not concern themselves with how they will handle their expenses. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>The CureDesk offers a comprehensive range of features to streamline clinic management, including:<ul><li class='mb-2'><strong>Electronic Health Records (EHR):</strong> Easily store, manage, and access patient medical records.</li><li class='mb-2'><strong>Patient Appointment Scheduling:</strong> Simplify scheduling, reminders, and patient follow-ups.</li><li class='mb-2'><strong>Secure Data Storage:</strong> Ensure data privacy and security with advanced encryption.</li><li class='mb-2'><strong>Billing and Invoicing:</strong> Automate billing processes and manage invoices efficiently.</li></ul></p>",
             "image": ""
           },
           {
-            "heading": "Diagnostic Procedure Expense",
+            "heading": "Billing and Invoicing",
             "shortDescription": "",
-            "longDescription": "<p>Several Diagnostic techniques are there that are very expensive. If a person can access an Ayushman Bharat card, they can get the amount for the Diagnostic procedures. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "longDescription": "<p>Experience the power of seamless integration with our billing system. As part of our comprehensive hospital information management system, our billing module provides a streamlined solution for your financial needs. Enjoy improved data accuracy, reduced errors, and enhanced reporting capabilities. </p><p>Our system is designed to optimize your revenue cycle and help you make informed decisions based on real-time data.</p>",
             "image": ""
           },
           {
-            "heading": "Accommodation",
+            "heading": "Role And Access management",
             "shortDescription": "",
-            "longDescription": "<p>The same expenses will also be covered if a person is dealing with such health conditions that require additional accommodation. There is a particular criterion that is important to follow for it. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>Our role and access management system empowers administrators to precisely control data access, ensuring compliance and protecting sensitive information. By setting time limits for data viewing, you can mitigate risks and maintain a culture of responsibility.</p><p> Our system is designed to adapt to your changing needs, allowing you to adjust access privileges as roles and responsibilities evolve. This flexibility enhances operational efficiency while minimizing the risk of unauthorized access.</p>",
             "image": ""
           },
           {
-            "heading": "Food Delivery",
+            "heading": "SMS, WhatsApp, and Email Integration",
             "shortDescription": "",
-            "longDescription": "<p>There are times when people do not have food available. At that time, they avail the services from the government of India. Under PMJAY, food delivery is free. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "longDescription": "<p>Streamline patient communication with our compliant messaging platform. We facilitate secure exchange of billing details, prescriptions, and other vital information via email, SMS, and WhatsApp. Our user-friendly interface and robust functionality make it easy for your staff to send personalized messages that enhance patient engagement and satisfaction. </p><p>By ensuring secure and compliant communication channels, we help you deliver individualized care with confidence</p>",
             "image": ""
           }
         ]
@@ -667,33 +661,33 @@ export const services = [
         "heading": "Explore Our Health Information System's Revolutionary Features!",
         "features": [
           {
-            "heading": "Cover Pre-Hospitalization Expenses",
+            "heading": "Curedesk userbase",
             "shortDescription": "",
-            "longDescription": "<p>Under this Yojana, people will be able to get the benefit that the consultation and examination expenses will be covered. They will not need to pay any additional amount at the Hospital to support Pradhan Mantri Jan Arogya Yojana. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>CureDesk is a versatile clinic management solution that empowers healthcare professionals to deliver high-quality care. Whether you're a small clinic or a large hospital, CureDesk can adapt to your unique needs and help you streamline your operations.</p><p> Our platform offers a wide range of features, including patient records, appointment scheduling, billing and insurance management, and reporting. CureDesk's scalable architecture ensures that your practice can grow and evolve without compromising on efficiency.</p>",
             "image": ""
           },
           {
-            "heading": "Cover Pre-Hospitalization Expenses",
+            "heading": "Key Features",
             "shortDescription": "",
-            "longDescription": "<p>Certain conditions require hospitalization. Under the PMJAY, expenses are covered. Individuals need not concern themselves with how they will handle their expenses. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>The CureDesk offers a comprehensive range of features to streamline clinic management, including:<ul><li class='mb-2'><strong>Electronic Health Records (EHR):</strong> Easily store, manage, and access patient medical records.</li><li class='mb-2'><strong>Patient Appointment Scheduling:</strong> Simplify scheduling, reminders, and patient follow-ups.</li><li class='mb-2'><strong>Secure Data Storage:</strong> Ensure data privacy and security with advanced encryption.</li><li class='mb-2'><strong>Billing and Invoicing:</strong> Automate billing processes and manage invoices efficiently.</li></ul></p>",
             "image": ""
           },
           {
-            "heading": "Diagnostic Procedure Expense",
+            "heading": "Billing and Invoicing",
             "shortDescription": "",
-            "longDescription": "<p>Several Diagnostic techniques are there that are very expensive. If a person can access an Ayushman Bharat card, they can get the amount for the Diagnostic procedures. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "longDescription": "<p>Experience the power of seamless integration with our billing system. As part of our comprehensive hospital information management system, our billing module provides a streamlined solution for your financial needs. Enjoy improved data accuracy, reduced errors, and enhanced reporting capabilities. </p><p>Our system is designed to optimize your revenue cycle and help you make informed decisions based on real-time data.</p>",
             "image": ""
           },
           {
-            "heading": "Accommodation",
+            "heading": "Role And Access management",
             "shortDescription": "",
-            "longDescription": "<p>The same expenses will also be covered if a person is dealing with such health conditions that require additional accommodation. There is a particular criterion that is important to follow for it. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people.</p>",
+            "longDescription": "<p>Our role and access management system empowers administrators to precisely control data access, ensuring compliance and protecting sensitive information. By setting time limits for data viewing, you can mitigate risks and maintain a culture of responsibility.</p><p> Our system is designed to adapt to your changing needs, allowing you to adjust access privileges as roles and responsibilities evolve. This flexibility enhances operational efficiency while minimizing the risk of unauthorized access.</p>",
             "image": ""
           },
           {
-            "heading": "Food Delivery",
+            "heading": "SMS, WhatsApp, and Email Integration",
             "shortDescription": "",
-            "longDescription": "<p>There are times when people do not have food available. At that time, they avail the services from the government of India. Under PMJAY, food delivery is free. This Yojana will provide free medical treatment to people who are living below the poverty line. The beneficiaries of this Yojana will be able to get free medical treatment in government hospitals as well as private hospitals. The government has allocated a budget of Rs. 5 lakh crore for this Yojana. The Yojana is expected to benefit more than 10 crore people. The Yojana is a major step towards providing affordable healthcare to all Indians. The Yojana is expected to reduce out-of-pocket health expenses for millions of people. The Yojana is a great initiative by the government to provide affordable healthcare to all Indians.</p>",
+            "longDescription": "<p>Streamline patient communication with our compliant messaging platform. We facilitate secure exchange of billing details, prescriptions, and other vital information via email, SMS, and WhatsApp. Our user-friendly interface and robust functionality make it easy for your staff to send personalized messages that enhance patient engagement and satisfaction. </p><p>By ensuring secure and compliant communication channels, we help you deliver individualized care with confidence</p>",
             "image": ""
           }
         ],

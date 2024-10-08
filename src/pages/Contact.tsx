@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
         <div className='max-w-[80%]'>
           <h2 className="font-bold text-3xl text-gray-800 font-nunito">Connecting Healthcare With AI Driven Technology And Empowering Lives: Reach Out To Us Today</h2>
           <p className="text-lg leading-relaxed text-slate-500 mt-3 font-nunito">
-          Experience the future of healthcare with our cutting-edge software. Contact us for a free consultation and discover how our solutions can improve efficiency, enhance patient care, and drive your practice's success.
+          Experience the future of healthcare with our cutting-edge software. Contact us for a free demo and discover how our solutions can improve efficiency, enhance patient care, and drive your practice's success.
           </p>
         </div>
         <div>

@@ -2,6 +2,7 @@ import FAQsSection from "../component/FAQsSection";
 import FeaturesCD from "../component/FeaturesCD";
 import Schedule from "../component/Schedule";
 import ServicesSectionPoint from "../component/ServicesSectionPoint";
+import StatisticsSection from "../component/StatisticsSection";
 import TrustedByCompanies from "../component/TrustedByCompanies";
 import {contentDataFeatures, headingData} from '../json/dropdownData'
 
@@ -15,6 +16,7 @@ const EHRSoftwareUSA: React.FC = () => {
       <div className='px-0'>
 
           <Schedule /><ServicesSectionPoint heading={heading1} />
+          <StatisticsSection />
           <FeaturesCD
             heading={sectionDataFeatures.heading}
             description={sectionDataFeatures.description}

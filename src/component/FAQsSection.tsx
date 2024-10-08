@@ -25,7 +25,7 @@ const FAQsSection = () => {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg md:text-xl text-slate-500 font-medium font-nunito">
-                Our experts are specially trained to help people with chronic conditions like diabetes, obesity, heart disease, thyroid disease, osteoporosis, high blood pressure and more.
+              Find answers to the most common questions about our clinic management software, including its features, security, integration, and patient care capabilities. Get insights into how our system can enhance your clinic's efficiency and patient engagement.
               </p>
             </div>
           </div>

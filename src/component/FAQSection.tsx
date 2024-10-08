@@ -9,16 +9,16 @@ const FAQSection = () => {
       answer: "You can book an appointment through our website by filling out the appointment form."
     },
     {
-      question: "What payment methods do you accept?",
-      answer: "We accept cash, credit cards, and insurance plans."
+      question: "Is The Curedesk system suitable for small clinics as well as large hospitals?",
+      answer: "Yes, our system is highly scalable and can be customized to meet the needs of small clinics, medium-sized practices, and large hospitals. It offers flexibility in managing patient load, clinic workflows, and administrative tasks regardless of the size of the healthcare facility."
     },
     {
-      question: "Why should I choose your curedesk management software over others",
+      question: "Why should I choose The Curedesk management software over others",
       answer: "The Curedesk management software is designed specifically to meet the needs of healthcare professionals. It offers an intuitive user interface, seamless patient management, appointment scheduling, and billing features. Unlike generic solutions, our software is tailored for clinics, providing features like electronic medical records (EMR), treatment plans, and integration with diagnostic tools, which ensures an efficient workflow."
     },
     {
-      question: "How does your The Curedesk improve clinic operations?",
-      answer: "The Curedesk streamlines every aspect of clinic operations—from patient registration to billing—by automating repetitive tasks. Appointment scheduling, patient follow-ups, and reminders are automated, reducing manual effort and errors. In addition, the software provides real-time reporting and analytics, helping you make data-driven decisions to optimize clinic performance."
+      question: "How secure is the data stored in our system?",
+      answer: "In The Curedesk, Data security is a top priority. Our advanced encryption techniques, secure access protocols, regular backups, and compliance with healthcare regulations (like HIPAA) ensure that all patient information is kept confidential and protected from unauthorized access."
     },
   ];
 

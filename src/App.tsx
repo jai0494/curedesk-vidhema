@@ -17,6 +17,7 @@ import EHRSoftware from './pages/EHRSoftware';
 import EHRSoftwareIndia from './pages/EHRSoftwareIndia';
 import Gynecologist from './pages/Gynecologist';
 import Pulmonologist from './pages/Pulmonologist';
+import EHRSoftwareUSA from './pages/EHRSoftwareUSA';
 const App: React.FC = () => {
   return (
     <Router>
@@ -36,6 +37,7 @@ const App: React.FC = () => {
           <Route path="/ABHA" element={<ABHA />} />
           <Route path="/PMJAY" element={<PMJAY />} />
           <Route path="/EHRSoftwareIndia" element={<EHRSoftwareIndia />} />
+          <Route path="/EHRSoftwareUSA" element={<EHRSoftwareUSA />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

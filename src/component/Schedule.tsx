@@ -10,7 +10,7 @@ const Schedule: React.FC = () => {
         
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl tracking-tighter text-slate-800 sm:text-5xl font-nunito font-bold">
-          Clinic Management Software: Streamlining Operations for Efficient Healthcare Delivery
+          Clinic Management Software: Streamlining Operations for Efficient Healthcare
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
           By leveraging clinic management software, healthcare providers can improve operational efficiency

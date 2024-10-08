@@ -158,6 +158,8 @@ const Form: React.FC = () => {
             <option value="">Select Type</option>
             <option value="Allopathy">Allopathy</option>
             <option value="Homeopathy">Homeopathy</option>
+            <option value="Dentist">Dentist</option>
+            <option value="Physio">Physio</option>
           </select>
         </div>
         {/* Other Input Fields */}

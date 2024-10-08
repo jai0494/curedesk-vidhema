@@ -13,7 +13,7 @@ const SecondaryFeatures: React.FC = () => {
             The Future of Healthcare, Today
           </h2>
           <p className="mt-4 font-nunito text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you complicate your everyday business tasks instead.
+            We've modernized healthcare, boosting efficiency and saving money through paperless processes.
           </p>
         </div>
 

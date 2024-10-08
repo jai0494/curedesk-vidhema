@@ -13,7 +13,7 @@ const HealthSection = () => {
       className="relative bg-white overflow-hidden mt-20"
     >
       <div
-        className="md:py-20 md:py-0 bg-coolGray-900"
+        className="md:py-5 md:py-0 bg-coolGray-900"
         style={{
           backgroundImage: "url('flex-ui-assets/elements/pattern-dark2.svg')",
           backgroundPosition: 'center',
@@ -23,13 +23,13 @@ const HealthSection = () => {
           <div className="flex flex-wrap xl:items-center -mx-4">
             <div className="w-full md:w-1/2 px-4 md:mb-16 mb-8 md:mb-0">
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-white bg-blue-500 uppercase rounded-9xl" data-config-id="text11">
-                Located in USA
+                Award Winning Software
               </span>
               <h1 className="mb-6 font-nunito text-3xl md:text-5xl lg:text-6xl leading-tight text-slate-900 font-bold tracking-tight" data-config-id="text9">
                 Your Health and Wellbeing, our Priority
               </h1>
               <p className="mb-8 font-nunito text-lg md:text-xl text-slate-400 font-medium" data-config-id="text10">
-                Our goal is to make sure our customers receive the best treatment they need in a pleasant environment.
+              Our system has streamlined healthcare operations, reduced costs, and eliminated paperwork.
               </p>
               <div className="flex flex-wrap">
                 <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
