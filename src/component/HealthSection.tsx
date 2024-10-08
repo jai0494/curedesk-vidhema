@@ -13,7 +13,7 @@ const HealthSection = () => {
       className="relative bg-white overflow-hidden mt-20"
     >
       <div
-        className="md:py-5 md:py-0 bg-coolGray-900"
+        className="md:py-5 md:py-0 md:pt-0 bg-coolGray-900"
         style={{
           backgroundImage: "url('flex-ui-assets/elements/pattern-dark2.svg')",
           backgroundPosition: 'center',

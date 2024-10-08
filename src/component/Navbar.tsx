@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
                         </svg>
                       </span>
                       {/* Dropdown Menu */}
-                      <ul className="absolute left-0 mt-0 border-[1.5px] border-blue-gray-50 w-60 bg-white text-black shadow-lg rounded-lg z-10 hidden group-hover:block hover:block transition-all duration-300 ease-in-out">
+                      <ul className="md:min-w-[250px] absolute left-0 mt-0 border-[1.5px] border-blue-gray-50 w-60 bg-white text-black shadow-lg rounded-lg z-10 hidden group-hover:block hover:block transition-all duration-300 ease-in-out">
                         {item.dropdown.map((subItem) => (
                           <li key={subItem.name} className="px-4 py-2 hover:bg-gray-200 cursor-pointer font-nunito">
                             <Link to={`${subItem.path}`} className="block w-full h-full">

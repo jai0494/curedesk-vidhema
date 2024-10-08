@@ -13,7 +13,7 @@ const Services: React.FC = () => {
     return <p>Content not found.</p>;
   }  
   return (
-      <div className='px-4'>
+      <div className='px-4 md:px-0'>
 
           <ServiceMain heading={headingS} subheading={subheadingS} /><ServicesSectionPoint heading={heading1} />
           <FeaturesCD

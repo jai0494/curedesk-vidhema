@@ -3,7 +3,7 @@ interface ServicesSectionPoint {
 }
 const ServicesSectionPoint : React.FC<ServicesSectionPoint> = ({ heading }) =>  {
   return (
-    <div className="mx-auto max-w-7xl">
+    <div className="mx-auto max-w-7xl md:px-7">
       <div className=" text-center">
         <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Services</span>
         <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">{heading}</h2>

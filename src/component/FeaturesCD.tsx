@@ -25,7 +25,7 @@ const FeaturesCD: React.FC<FeaturesCDProps> = ({
   }, []);
 
   return (
-    <section className="py-5 mt-10 pb-10">
+    <section className="py-5 mt-10 pb-10 md:px-7 max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center">
           <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Services</span>
