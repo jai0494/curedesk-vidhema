@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="text-gray-500 font-bold text-xl relative min-w-[220px] md:min-w-[50px] xl:min-w-[270px]">
             <Link to="/">
-              <img src="/logo-light.svg" alt="Logo" className="md:h-[40px] lg:h-[50px]" />
+              <img src="/logo-light.svg" alt="Logo" className="h-[50px] md:h-[40px] lg:h-[50px]" />
               <span className="font-nunito text-black font-bold absolute left-[64px] top-[10px] xl:w-[216px] text-[1.5rem] xl:text-[2rem] md:hidden lg:inline">
                 The Curedesk
               </span>
