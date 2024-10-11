@@ -11,6 +11,11 @@ const Navbar: React.FC = () => {
   const handleClose = () => setOpen(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
+  // Function to close the menu when a link is clicked
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className="py-2 bg-white fixed shadow-md top-0 left-0 right-0 z-50 border-solid border-[0px_0px_1px_0px] border-[#D7D7D754]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-3 lg:px-8">
@@ -68,7 +73,11 @@ const Navbar: React.FC = () => {
                   {item.dropdown ? (
                     <>
                       <span className="flex items-center">
-                        <Link to={`${item.path}`} className="block w-full h-full text-[0.8rem] xl:text-[1rem]">
+                        <Link 
+                          to={`${item.path}`} 
+                          className="block w-full h-full text-[0.8rem] xl:text-[1rem]"
+                          onClick={handleLinkClick} // Close menu on link click
+                        >
                           {item.name}
                         </Link>
                         {/* Dropdown arrow */}
@@ -89,7 +98,11 @@ const Navbar: React.FC = () => {
                       <ul className="md:min-w-[250px] absolute left-0 mt-0 border-[1.5px] border-blue-gray-50 w-60 bg-white text-black shadow-lg rounded-lg z-10 hidden group-hover:block hover:block transition-all duration-300 ease-in-out">
                         {item.dropdown.map((subItem) => (
                           <li key={subItem.name} className="px-4 py-2 hover:bg-gray-200 cursor-pointer font-nunito">
-                            <Link to={`${subItem.path}`} className="block w-full h-full text-[0.8rem] xl:text-[1rem]">
+                            <Link 
+                              to={`${subItem.path}`} 
+                              className="block w-full h-full text-[0.8rem] xl:text-[1rem]"
+                              onClick={handleLinkClick} // Close menu on link click
+                            >
                               {subItem.name}
                             </Link>
                           </li>
@@ -97,7 +110,11 @@ const Navbar: React.FC = () => {
                       </ul>
                     </>
                   ) : (
-                    <Link to={`${item.path}`} className="block w-full h-full text-[0.8rem] xl:text-[1rem]">
+                    <Link 
+                      to={`${item.path}`} 
+                      className="block w-full h-full text-[0.8rem] xl:text-[1rem]"
+                      onClick={handleLinkClick} // Close menu on link click
+                    >
                       {item.name}
                     </Link>
                   )}
