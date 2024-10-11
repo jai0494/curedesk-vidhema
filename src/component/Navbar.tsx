@@ -16,10 +16,10 @@ const Navbar: React.FC = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <nav className="flex items-start md:items-center flex-col md:flex-row justify-between p-4 pl-0 pr-0">
           {/* Logo */}
-          <div className="text-gray-500 font-bold text-xl relative">
+          <div className="text-gray-500 font-bold text-xl relative min-w-[220px] xl:min-w-[270px]">
             <Link to="/">
               <img src="/logo-light.svg" alt="Logo" className="h-[50px]" />
-              <span className="font-nunito text-black font-bold absolute left-[64px] top-[10px] w-[216px] text-[2rem]">
+              <span className="font-nunito text-black font-bold absolute left-[64px] top-[10px] xl:w-[216px] text-[1.5rem] xl:text-[2rem]">
                 The Curedesk
               </span>
             </Link>
@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
                   {item.dropdown ? (
                     <>
                       <span className="flex items-center">
-                        <Link to={`${item.path}`} className="block w-full h-full">
+                        <Link to={`${item.path}`} className="block w-full h-full text-[0.8rem] xl:text-[1rem]">
                           {item.name}
                         </Link>
                         {/* Dropdown arrow */}
@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
                       <ul className="md:min-w-[250px] absolute left-0 mt-0 border-[1.5px] border-blue-gray-50 w-60 bg-white text-black shadow-lg rounded-lg z-10 hidden group-hover:block hover:block transition-all duration-300 ease-in-out">
                         {item.dropdown.map((subItem) => (
                           <li key={subItem.name} className="px-4 py-2 hover:bg-gray-200 cursor-pointer font-nunito">
-                            <Link to={`${subItem.path}`} className="block w-full h-full">
+                            <Link to={`${subItem.path}`} className="block w-full h-full text-[0.8rem] xl:text-[1rem]">
                               {subItem.name}
                             </Link>
                           </li>
@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
                       </ul>
                     </>
                   ) : (
-                    <Link to={`${item.path}`} className="block w-full h-full">
+                    <Link to={`${item.path}`} className="block w-full h-full text-[0.8rem] xl:text-[1rem]">
                       {item.name}
                     </Link>
                   )}

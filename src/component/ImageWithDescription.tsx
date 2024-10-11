@@ -12,7 +12,8 @@ const ImageWithDescription: React.FC<ImageWithDescriptionProps> = ({
   description,
 }) => {
   return (
-    <div className="flex flex-col items-center md:flex-row items-center p-8 max-w-7xl mx-auto relative gap-8">
+    <section className='bg-white'>
+      <div className="flex flex-col items-center md:flex-row items-center p-8 max-w-7xl mx-auto relative gap-8">
       {/* Image on the Left */}
       {/* Heading and Description on the Right */}
       <div className="w-full md:w-1/2 text-center md:text-left">
@@ -34,6 +35,7 @@ const ImageWithDescription: React.FC<ImageWithDescriptionProps> = ({
 
       
     </div>
+    </section>
   );
 };
 

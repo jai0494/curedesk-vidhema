@@ -78,7 +78,7 @@ const Form: React.FC = () => {
             id="clinicName"
             value={formData.clinicName}
             onChange={handleInputChange}
-            className="mt-1 text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 bg-white"
             placeholder="Clinic Name"
             required
           />
@@ -93,7 +93,7 @@ const Form: React.FC = () => {
             id="doctorName"
             value={formData.doctorName}
             onChange={handleInputChange}
-            className="mt-1 text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-700  bg-white  block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Dr. Name"
             required
           />
@@ -108,7 +108,7 @@ const Form: React.FC = () => {
             id="branchName"
             value={formData.branchName}
             onChange={handleInputChange}
-            className="mt-1 text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-700  bg-white block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Branch Name"
             required
           />
@@ -123,7 +123,7 @@ const Form: React.FC = () => {
             id="mobile"
             value={formData.mobile}
             onChange={handleInputChange}
-            className="mt-1 text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-700  bg-white block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Mobile Number"
             required
           />
@@ -138,7 +138,7 @@ const Form: React.FC = () => {
             id="email"
             value={formData.email}
             onChange={handleInputChange}
-            className="mt-1 text-slate-700 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-700  bg-white block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="Email"
             required
           />
@@ -152,7 +152,7 @@ const Form: React.FC = () => {
             id="type"
             value={formData.type}
             onChange={handleInputChange}
-            className="mt-1 text-slate-400 font-nunito block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="mt-1 text-slate-400  bg-white font-nunito block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             required
           >
             <option value="">Select Type</option>

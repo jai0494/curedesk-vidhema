@@ -4,6 +4,7 @@ import Navbar from './component/Navbar';
 import Home from './pages/Home'; // Ensure you have these components created
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Achievements from './pages/Achievements';
 import NotFound from './pages/NotFound';
 import './App.css';
 import Footer from './component/Footer';
@@ -38,6 +39,8 @@ const App: React.FC = () => {
           <Route path="/PMJAY" element={<PMJAY />} />
           <Route path="/EHRSoftwareIndia" element={<EHRSoftwareIndia />} />
           <Route path="/EHRSoftwareUSA" element={<EHRSoftwareUSA />} />
+          <Route path="/Achievements" element={<Achievements />} />
+          {/* <Route path="/Achievments" element={<Achievments />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

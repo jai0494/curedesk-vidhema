@@ -76,9 +76,10 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className='bg-white'>
+       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <ToastContainer />
-      <div className="mt-16 text-center">
+      <div className="mt-16 text-center bg-white">
         <h1 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl font-nunito font-bold">Revolutionizing Healthcare with Connectivity</h1>
         <p className="text-lg mt-4 text-slate-600">We are here to help.</p>
       </div>
@@ -102,7 +103,7 @@ const Contact: React.FC = () => {
                   name="fullName"
                   id="fullName"
                   required
-                  className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700"
+                  className="mt-1 block bg-white  w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700"
                   value={formData.fullName}
                   onChange={handleChange}
                 />
@@ -119,7 +120,7 @@ const Contact: React.FC = () => {
                   name="email"
                   id="email"
                   required
-                  className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700"
+                  className="mt-1 block bg-white w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700"
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -136,7 +137,7 @@ const Contact: React.FC = () => {
                   id="message"
                   required
                   rows={5}
-                  className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700"
+                  className="mt-1 block bg-white  w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700"
                   value={formData.message}
                   onChange={handleChange}
                 />
@@ -162,6 +163,8 @@ const Contact: React.FC = () => {
         <KeyFeatureGrid />
       </div>
     </div>
+    </section>
+   
   );
 };
 

@@ -5,13 +5,20 @@ interface TestimonialProps {
   name: string;
   imageSrc: string;
   imageAlt: string;
+  speclity: string;
+  clinic: string;
 }
 
 const TestimonialCard: React.FC<TestimonialProps> = ({
   quote,
   name,
   imageSrc,
-  imageAlt
+  imageAlt,
+  speclity,
+  clinic,
+
+
+
 }) => (
   <li>
     <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
@@ -30,7 +37,9 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
       </blockquote>
       <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
         <div>
-          <div className="font-display text-base text-slate-900">{name}</div>
+          <div className="font-display text-base text-[#31335a] font-semibold text-[20px] mb-1">{name}</div>
+          <p className='font-display text-base text-[#516173] text-sm font-medium mb-2'>{speclity}</p>
+          <p className='font-display text-base text-[#516173] text-sm '>{clinic}</p>
         </div>
         <div className="overflow-hidden rounded-full bg-slate-50">
           <img
@@ -44,6 +53,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
           />
         </div>
       </figcaption>
+    
     </figure>
   </li>
 );
@@ -55,42 +65,55 @@ const TestimonialFeatures: React.FC = () => {
         'The electronic prescribing feature has improved patient safety and reduced medication errors. It\'s also helped us streamline our workflow.',
       name: 'Dr. Cheong',
       imageSrc: '/testimonial/doc.png',
-      imageAlt: 'Dr. Cheong'
+      imageAlt: 'Dr. Cheong',
+      speclity:"Endocrinologist and Diabetologist",
+      clinic:"Prime Care Clinic",
     },
     {
       quote:
         'The patient portal has been a great way to improve communication with our patients. They can easily access their medical records and schedule appointments online.',
       name: 'Dr. Ashutosh Chaturvedi',
       imageSrc: '/ashutosh-chaturvedi.jpg',
-      imageAlt: 'Dr. Ashutosh Chaturvedi'
+      imageAlt: 'Dr. Ashutosh Chaturvedi',
+      speclity:"MD (MEDICINE) Certified in Diabetes",
+      clinic:"Guru kripa Medical Centre",
     },
     {
       quote:
         "This software has been a lifesaver for our clinic. It's easy to use, and the appointment scheduling feature has been a game-changer. Our patients love the online booking option!",
       name: 'Dr. Caitlin E. Hackett',
-      imageSrc: '/doctor.jpg',
-      imageAlt: 'Sheryl Berge'
+      imageSrc: '/doctor-mask.jpg',
+      imageAlt: 'Sheryl Berge',
+      speclity:"Pulmonologist, Chest Physician",
+      clinic:"Scripss Medical Centre",
+
     },
     {
       quote:
         "The billing and invoicing module has simplified our financial management. We've reduced errors and streamlined our claims process. It's a great time-saver.",
-      name: 'Dr. Adam Young',
-      imageSrc: '/doctor.jpg',
-      imageAlt: 'Sheryl Berge'
+      name: 'Dr. Ameila Young',
+      imageSrc: '/lady-doctor.jpg',
+      imageAlt: 'Sheryl Berge',
+      speclity:"Urologist, Urosurgeon, Kidney",
+      clinic:"Mayo Urologist & Diabetes Centre",
     },
     {
       quote:
         'The customer support team has been excellent. They\'re always quick to respond to our questions and provide helpful assistance.',
       name: 'Dr. Mukesh Sharma',
       imageSrc: 'https://mukeshsharma-673f4.web.app/assets/img/hero-bg-mobile.jpg',
-      imageAlt: 'Dr. Mukesh Sharma'
+      imageAlt: 'Dr. Mukesh Sharma',
+      speclity:"Homeopathy specialist",
+      clinic:"Homeopath Clinic",
     },
     {
       quote:
         'I would highly recommend this software to any clinic looking to improve their efficiency and patient care.',
       name: 'Dr. Subhash Sharma',
       imageSrc: '/testimonial/doc1.jfif',
-      imageAlt: 'Sheryl Berge'
+      imageAlt: 'Sheryl Berge',
+      speclity:"Homeopathy specialist",
+      clinic:"iCare Centre",
     }
   ];
 

@@ -27,4 +27,5 @@ export const menuItems = [
       ],
     },
     { name: "Contact", path: "/contact" },
+    { name: "Achievements", path: "/achievements" },
   ];

@@ -35,7 +35,7 @@ const FeaturesSectionSpeciality: React.FC<FeaturesSectionProps> = ({ index }) =>
   }
 
   return (
-    <section id="features" className="py-20 active">
+    <section id="features" className="py-20 active bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 items-center gap-6">
           <div className="flex items-center">
