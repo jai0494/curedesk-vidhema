@@ -1,7 +1,7 @@
 export const menuItems = [
     { name: "About", path: "/about" },
     {
-      name: "Healthray Products",
+      name: "Our Products",
       path: "/",
       dropdown: [
         { name: "Hospital Information Management System (HIMS)", path: "/services/hospital-information-management-system" },

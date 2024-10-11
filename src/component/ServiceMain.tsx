@@ -8,7 +8,7 @@ interface ServiceMainProps {
 const ServiceMain: React.FC<ServiceMainProps> = ({ heading, subheading }) => {
   return (
     <section
-      className="relative pt-32 md:pt-20 pb-32 md:pb-20 overflow-x-hidden from-slate-500/10 bg-[url(/bg-1.png)] bg-no-repeat bg-cover active"
+      className="relative pt-32 md:pt-20 pb-32 md:pb-20 overflow-x-hidden from-slate-500/10 bg-[url(https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/bg-1.png?alt=media&token=6a70ce93-53a1-4abd-b473-1498837a4ba9)] bg-no-repeat bg-cover active"
       id="home"
     >
       <div className="mx-auto max-w-7xl">

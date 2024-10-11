@@ -10,7 +10,7 @@ const SectionWithImagesAndContent = () => {
         <p className='font-nunito text-slate-500 mb-10 mt-5'>Experience the future of healthcare with our cutting-edge software. Contact us for a free demo and discover.</p>
       <div className="flex flex-col lg:flex-row items-center mb-12">
         <img
-          src="/testimonial/hmis.jpg"
+          src="https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/hmis.jpg?alt=media&token=ef0f4ef5-e605-4509-967e-38adc19b49c9"
           alt="Image 1"
           className="w-full lg:w-1/2 object-cover"
         />
@@ -25,7 +25,7 @@ const SectionWithImagesAndContent = () => {
       {/* Second div: Left content, right image */}
       <div className="flex flex-col lg:flex-row-reverse items-center mb-12">
         <img
-          src="/testimonial/crm.jpg"
+          src="https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/crm.jpg?alt=media&token=e71f2555-a331-4baf-b378-b0f153525db7"
           alt="Image 2"
           className="w-full lg:w-1/2 object-cover"
         />
@@ -40,7 +40,7 @@ const SectionWithImagesAndContent = () => {
       {/* Third div: Left image, right content */}
       <div className="flex flex-col lg:flex-row items-center">
         <img
-          src="/electroni-pre.png"
+          src="https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/electroni-pre.jpg?alt=media&token=1d77e20c-b8c4-4b02-9aa6-9d4e2f37fe73"
           alt="Image 3"
           className="w-full lg:w-1/2 object-cover"
         />

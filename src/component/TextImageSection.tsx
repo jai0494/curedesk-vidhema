@@ -9,7 +9,7 @@ const TextImageSection = () => {
             We've modernized healthcare, boosting efficiency and saving money through paperless processes.
           </p>
       <img
-        src="/All-in-one-solution-of-Curedesk.jpg" // Replace with your image URL
+        src="https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/All-in-one-solution-of-Curedesk.jpg?alt=media&token=8624ceb1-913b-4355-9eeb-b8f027ce650c" // Replace with your image URL
         alt="Descriptive Alt Text"
         className="w-full max-w-[800px] rounded-lg"
       />

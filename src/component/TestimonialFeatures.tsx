@@ -64,7 +64,7 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         'The electronic prescribing feature has improved patient safety and reduced medication errors. It\'s also helped us streamline our workflow.',
       name: 'Dr. Cheong',
-      imageSrc: '/testimonial/doc.png',
+      imageSrc: 'https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/doc.png?alt=media&token=a26538ac-4238-4578-acd7-e6b380fcaa8f',
       imageAlt: 'Dr. Cheong',
       speclity:"Endocrinologist and Diabetologist",
       clinic:"Prime Care Clinic",
@@ -73,7 +73,7 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         'The patient portal has been a great way to improve communication with our patients. They can easily access their medical records and schedule appointments online.',
       name: 'Dr. Ashutosh Chaturvedi',
-      imageSrc: '/ashutosh-chaturvedi.jpg',
+      imageSrc: 'https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/ashutosh-chaturvedi.jpg?alt=media&token=2d86d753-f7df-402e-ae78-989bdaba5654',
       imageAlt: 'Dr. Ashutosh Chaturvedi',
       speclity:"MD (MEDICINE) Certified in Diabetes",
       clinic:"Guru kripa Medical Centre",
@@ -82,7 +82,7 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         "This software has been a lifesaver for our clinic. It's easy to use, and the appointment scheduling feature has been a game-changer. Our patients love the online booking option!",
       name: 'Dr. Caitlin E. Hackett',
-      imageSrc: '/doctor-mask.jpg',
+      imageSrc: 'https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/doctor-mask.jpg?alt=media&token=68d3f6a2-8958-4d10-9fee-da888fb8facd',
       imageAlt: 'Sheryl Berge',
       speclity:"Pulmonologist, Chest Physician",
       clinic:"Scripss Medical Centre",
@@ -92,7 +92,7 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         "The billing and invoicing module has simplified our financial management. We've reduced errors and streamlined our claims process. It's a great time-saver.",
       name: 'Dr. Ameila Young',
-      imageSrc: '/lady-doctor.jpg',
+      imageSrc: 'https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/lady-doctor.jpg?alt=media&token=0aad61ba-39dc-4c9c-95fd-d62f64fde65d',
       imageAlt: 'Sheryl Berge',
       speclity:"Urologist, Urosurgeon, Kidney",
       clinic:"Mayo Urologist & Diabetes Centre",
@@ -110,7 +110,7 @@ const TestimonialFeatures: React.FC = () => {
       quote:
         'I would highly recommend this software to any clinic looking to improve their efficiency and patient care.',
       name: 'Dr. Subhash Sharma',
-      imageSrc: '/testimonial/doc1.jfif',
+      imageSrc: 'https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/doc1.jfif?alt=media&token=67d97650-13b7-4e7f-8b1b-1d76fb2ba730',
       imageAlt: 'Sheryl Berge',
       speclity:"Homeopathy specialist",
       clinic:"iCare Centre",

@@ -13,7 +13,7 @@ const SpecialityBanner: React.FC<SpecialityBanner> = ({ heading }) =>  {
   const handleClose = () => setOpen(false);
 
   return (
-    <section className="ed-2-cta overflow-hidden bg-blue-600 pt-[15px] md:pt-[40px] relative z-[1] before:absolute before:inset-0 before:bg-[url(/cta-2-vector.png)] before:bg-center before:bg-no-repeat before:bg-cover before:-z-[1]">
+    <section className="ed-2-cta overflow-hidden bg-blue-600 pt-[15px] md:pt-[40px] relative z-[1] before:absolute before:inset-0 before:bg-[url(https://firebasestorage.googleapis.com/v0/b/curedesk-3593d.appspot.com/o/cta-2-vector.png?alt=media&token=d8cac8d3-bd73-4967-9c7c-1fd1734511b1)] before:bg-center before:bg-no-repeat before:bg-cover before:-z-[1]">
       <div className="xxxl:mx-[14.7%] xxl:mx-[9.7%] xl:mx-[3.2%] md:mx-[15px]">
         <div className="md:flex md:flex-col gap-y-[15px]  justify-between pb-20 pt-6">
           {/* Text Section */}
