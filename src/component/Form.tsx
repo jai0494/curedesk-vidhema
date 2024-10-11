@@ -36,7 +36,7 @@ const Form: React.FC = () => {
     };
 
     try {
-      const response = await axios.post('https://dhor.clinic.api.stageprojects.xyz/clients/add', payload);
+      const response = await axios.post('https://api.thecuredesk.com/clients/add', payload);
       console.log('Response:', response.data);
       if (response.data.message === "User with this mobile No. or Email Id already exist") {
         toast.error("User with this mobile No. or Email Id already exist");

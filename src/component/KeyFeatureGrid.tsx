@@ -7,8 +7,8 @@ const features = [
   },
   {
     title: 'Mail Us at',
-    link:'mailto:thecuredesk@gmail.com',
-    description: 'thecuredesk@gmail.com',
+    link:'mailto:info@thecuredesk.com',
+    description: 'info@thecuredesk.com',
     icon: 'images/icons/feature-icon-2.svg',
   },
   {

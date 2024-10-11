@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
     const json = JSON.stringify({ ...formData, access_key: 'YOUR_ACCESS_KEY_HERE' });
 
     try {
-      const response = await fetch('https://dhor.clinic.api.stageprojects.xyz/contact/user', {
+      const response = await fetch('https://api.thecuredesk.com/contact/user', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
