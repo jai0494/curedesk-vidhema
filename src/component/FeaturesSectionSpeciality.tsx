@@ -47,7 +47,7 @@ const FeaturesSectionSpeciality: React.FC<FeaturesSectionProps> = ({ index }) =>
             <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950 text-blue-600 font-nunito">
               {features.description} {/* Use the selected description */}
             </span>
-            <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
+            <h2 className="text-2xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
               {features.title} {/* Use the selected title */}
             </h2>
             {/* <a

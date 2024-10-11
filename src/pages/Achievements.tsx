@@ -23,7 +23,7 @@ const Achievements: React.FC = () => {
     <section className="py-8 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-[40px]">
         <h1 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl font-nunito font-bold  text-center">Our Achievements</h1>
-        <p className='text-base font-normal text-gray-500 mt-2 font-nunito  mb-[30px] max-w-[80%] text-center m-auto'>Through our innovative Clinic Management System, we have achieved significant advancements in healthcare delivery. By optimizing patient care, enhancing data security, and improving clinical workflows, our system has empowered clinics to provide efficient, personalized care while reducing administrative challenges. </p>
+        <p className='text-base font-normal text-gray-500 mt-2 font-nunito  mb-[30px] md:max-w-[80%] text-center m-auto'>Through our innovative Clinic Management System, we have achieved significant advancements in healthcare delivery. By optimizing patient care, enhancing data security, and improving clinical workflows, our system has empowered clinics to provide efficient, personalized care while reducing administrative challenges. </p>
         
         <div className="sm:grid grid-cols-2 md:grid-cols-3 gap-4 mb-[40px]">
           <div className="grid gap-4">

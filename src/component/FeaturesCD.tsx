@@ -30,7 +30,7 @@ const FeaturesCD: React.FC<FeaturesCDProps> = ({
      <div className="max-w-7xl mx-auto relative">
         <div className="text-center">
           <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Services</span>
-          <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">{heading}</h2>
+          <h2 className="text-2xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">{heading}</h2>
           <div
             className="text-lg text-gray-600 space-y-4"
             dangerouslySetInnerHTML={{ __html: description }}

@@ -8,7 +8,7 @@ const ServicesSectionPoint : React.FC<ServicesSectionPoint> = ({ heading }) =>  
     <div className="mx-auto max-w-7xl px-4 md:px-7 ">
       <div className=" text-center">
         <span className="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Services</span>
-        <h2 className="text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">{heading}</h2>
+        <h2 className="text-2xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">{heading}</h2>
         <p className="text-base font-medium mt-4 text-slate-400">All-in-One Management System</p>
       </div>
 

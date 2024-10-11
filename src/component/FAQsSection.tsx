@@ -21,7 +21,7 @@ const FAQsSection = () => {
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-blue-500 bg-blue-100 font-medium rounded-full shadow-sm">
                 FAQ
               </span>
-              <h2 className="mb-4 text-3xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
+              <h2 className="mb-4 text-2xl md:text-4xl/tight font-bold text-black mt-4 font-nunito">
                 Frequently Asked Questions
               </h2>
               <p className="text-lg md:text-xl text-slate-500 font-medium font-nunito">

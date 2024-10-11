@@ -21,7 +21,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
 
 }) => (
   <li>
-    <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+    <figure className="font-nunito relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
       <svg
         aria-hidden="true"
         width="105"
@@ -125,10 +125,10 @@ const TestimonialFeatures: React.FC = () => {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 font-nunito font-bold sm:text-4xl md:max-w-[1000px] md:text-center">
+          <h2 className="font-display text-2xl tracking-tight text-slate-900 font-nunito font-bold sm:text-4xl md:max-w-[1000px] md:text-center">
             Loved by Doctors Worldwide
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
+          <p className="mt-4 text-lg tracking-tight text-slate-700 font-nunito">
             Our software is so simple that people can’t help but fall in love
             with it. Simplicity is easy when you just skip tons of mission-critical features.
           </p>

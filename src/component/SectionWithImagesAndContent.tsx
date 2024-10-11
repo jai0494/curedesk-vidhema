@@ -4,7 +4,7 @@ const SectionWithImagesAndContent = () => {
       {/* First div: Left image, right content */}
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
       <div className="mx-auto md:text-center">
-        <h2 className="font-display text-3xl tracking-tight text-slate-900 font-nunito font-bold sm:text-4xl md:max-w-[1000px] md:text-center">
+        <h2 className="font-display text-2xl tracking-tight text-slate-900 font-nunito font-bold sm:text-4xl md:max-w-[1000px] md:text-center">
           Revolutionize Healthcare with Our Software
         </h2>
         <p className='font-nunito text-slate-500 mb-10 mt-5'>Experience the future of healthcare with our cutting-edge software. Contact us for a free demo and discover.</p>
@@ -15,7 +15,7 @@ const SectionWithImagesAndContent = () => {
           className="w-full lg:w-1/2 object-cover"
         />
         <div className="w-full lg:w-1/2 md:p-8 pt-8 text-left">
-          <h2 className="text-3xl text-slate-900 font-bold mb-4 font-nunito">HIMS: A Game-Changer for Healthcare</h2>
+          <h2 className="text-2xl text-slate-900 font-bold mb-4 font-nunito">HIMS: A Game-Changer for Healthcare</h2>
           <p className="text-lg text-slate-600 font-nunito">
           A Hospital Information Management System (HIMS) is revolutionizing the way healthcare organizations operate. By digitizing and centralizing patient data, HIMS offers numerous benefits that improve efficiency, quality of care, and patient satisfaction.
           </p>
@@ -30,7 +30,7 @@ const SectionWithImagesAndContent = () => {
           className="w-full lg:w-1/2 object-cover"
         />
         <div className="w-full lg:w-1/2 md:p-8 pt-8 text-left">
-          <h2 className="text-3xl text-slate-900 font-bold mb-4 font-nunito">Patient Relationship Management </h2>
+          <h2 className="text-2xl text-slate-900 font-bold mb-4 font-nunito">Patient Relationship Management </h2>
           <p className="text-lg text-slate-600 font-nunito">
           Enhance patient engagement and satisfaction with a comprehensive healthcare solution. Our platform facilitates active and personalized interactions, ensuring a superior patient experience.
           </p>
@@ -45,7 +45,7 @@ const SectionWithImagesAndContent = () => {
           className="w-full lg:w-1/2 object-cover"
         />
         <div className="w-full lg:w-1/2 md:p-8 pt-8 text-left">
-          <h2 className="text-3xl text-slate-900 font-bold mb-4 font-nunito">Electronic Prescribing</h2>
+          <h2 className="text-2xl text-slate-900 font-bold mb-4 font-nunito">Electronic Prescribing</h2>
           <p className="text-lg text-slate-600 font-nunito">
           Experience the future of patient management. Our solution offers personalized interactions, seamlessly integrated into your daily workflow, revolutionizing your healthcare practice.
           </p>
