@@ -64,7 +64,7 @@ const Form: React.FC = () => {
   };
 
   return (
-    <div className="mx-auto bg-white p-6 rounded-lg shadow-lg border border-gray-300 mb-5">
+    <div className="mx-auto bg-white p-3 sm:p-6 rounded-lg shadow-lg border border-gray-300 mb-5">
       <ToastContainer />
       <h4 className='text-2xl md:text-4xl/tight font-bold text-black mt-2 font-nunito mb-7 text-center'>Create Your Clinic in 2 minutes</h4>
       <form onSubmit={handleSubmit} className="flex flex-wrap justify-between">

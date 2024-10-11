@@ -38,7 +38,7 @@ const FeaturesCD: React.FC<FeaturesCDProps> = ({
         </div>
         <div className="flex mt-8">
           {/* Vertical Tabs Section */}
-          <div className="w-1/4 bg-white p-4 border-r">
+          <div className="sm:w-1/4 bg-white p-4 border-r">
             {featuresData.map((feature, index) => (
               <div key={index} className="mb-2">
                 <h2 className="text-base font-semibold">
@@ -76,7 +76,7 @@ const FeaturesCD: React.FC<FeaturesCDProps> = ({
           </div>
 
           {/* Content Section */}
-          <div className="w-3/4 p-6">
+          <div className="sm:w-3/4 p-2 sm:p-6">
             {activeTab !== -1 && (
               <div>
                 {/* Long description */}

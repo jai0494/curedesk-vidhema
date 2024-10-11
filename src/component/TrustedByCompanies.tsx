@@ -11,7 +11,7 @@ const TrustedByCompanies = () => {
           </h3>
         </div>
 
-        <div className="grid md:grid-cols-6 grid-cols-2 justify-center gap-[30px] mt-8">
+        <div className="grid md:grid-cols-6 grid-cols-2 justify-center gap-[30px] mt-8 px-[20px] md:px-0">
           {clients.map((logo, index) => (
             <div key={index} className="mx-auto py-4">
               <img src={logo.src} className="h-20" alt={logo.alt} />

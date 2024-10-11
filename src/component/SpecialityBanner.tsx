@@ -17,9 +17,9 @@ const SpecialityBanner: React.FC<SpecialityBanner> = ({ heading }) =>  {
       <div className="xxxl:mx-[14.7%] xxl:mx-[9.7%] xl:mx-[3.2%] md:mx-[15px]">
         <div className="md:flex md:flex-col gap-y-[15px]  justify-between pb-20 pt-6">
           {/* Text Section */}
-          <div className='flex flex-wrap xl:items-center  mx-auto max-w-7xl text-sm py-20 px-10 md:py-0 '>
+          <div className='flex flex-wrap xl:items-center  mx-auto max-w-7xl text-sm sm:py-20 lg:px-10 md:py-0 '>
           <div className="shrink-0 relative w-full md:w-1/2 px-4 mt-5 ">
-            <h1 className="md:text-6xl/tight text-4xl text-dark tracking-normal leading-normal text-white font-bold font-nunito mb-4 mt-6 ">
+            <h1 className="md:text-5xl/tight lg:text-6xl/tight text-4xl text-dark tracking-normal leading-normal text-white font-bold font-nunito mb-4 mt-6 " style={{ wordWrap: 'break-word' }}>
             {heading}
             </h1>
             <button className="bg-blue-500 text-white text-base font-normal py-[11px] px-[18px] rounded hover:bg-blue-600" onClick={handleOpen}>

@@ -8,8 +8,8 @@ const Footer = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
-    <footer className="relative z-50 bg-white md:px-8 pt-6 pb-3 border-[1.5px] border-blue-gray-50">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <footer className="relative z-50 bg-white lg:px-8 pt-6 pb-3 border-[1.5px] border-blue-gray-50">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 md:pr-0 lg:px-8">
         <div className="flex flex-wrap">
           <div className="w-full md:w-4/12">
             <div className="text-gray-500 font-bold text-xl relative">
@@ -79,7 +79,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="md:ml-auto w-6/12 pt-6 md:px-4 md:pt-0 xl:w-4/12">
+              <div className="md:ml-auto sm:w-6/12 pt-6 md:px-4 md:pt-0 xl:w-4/12">
                 <span className="text-md mb-4 block font-bold text-slate-600 font-nunito">Country Wise Solutions</span>
                 <ul className="list-unstyled">
                   <li>

@@ -20,7 +20,7 @@ const features = [
 
 const KeyFeatureGrid = () => {
   return (
-    <div className="key-feature-grid mt-5 grid grid-cols-3 gap-7 md:grid-cols-3 xl:grid-cols-3">
+    <div className="key-feature-grid mt-5 grid gap-7 md:grid-cols-3 xl:grid-cols-3">
       {features.map((feature, index) => (
         <div key={index} className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg">
           <div>

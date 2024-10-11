@@ -84,7 +84,7 @@ const Contact: React.FC = () => {
         <p className="text-lg mt-4 text-slate-600">We are here to help.</p>
       </div>
       <div className="grid md:grid-cols-2 gap-10 mt-16">
-        <div className='max-w-[80%]'>
+        <div className='md:max-w-[80%]'>
           <h2 className="font-bold text-3xl text-gray-800 font-nunito">Connecting Healthcare With AI Driven Technology And Empowering Lives: Reach Out To Us Today</h2>
           <p className="text-lg leading-relaxed text-slate-500 mt-3 font-nunito">
           Experience the future of healthcare with our cutting-edge software. Contact us for a free demo and discover how our solutions can improve efficiency, enhance patient care, and drive your practice's success.

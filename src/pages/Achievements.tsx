@@ -25,7 +25,7 @@ const Achievements: React.FC = () => {
         <h1 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl font-nunito font-bold  text-center">Our Achievements</h1>
         <p className='text-base font-normal text-gray-500 mt-2 font-nunito  mb-[30px] max-w-[80%] text-center m-auto'>Through our innovative Clinic Management System, we have achieved significant advancements in healthcare delivery. By optimizing patient care, enhancing data security, and improving clinical workflows, our system has empowered clinics to provide efficient, personalized care while reducing administrative challenges. </p>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-[40px]">
+        <div className="sm:grid grid-cols-2 md:grid-cols-3 gap-4 mb-[40px]">
           <div className="grid gap-4">
             <div>
               <img src={images[0]} alt="image" className="w-full rounded-lg" />
@@ -37,7 +37,7 @@ const Achievements: React.FC = () => {
               <img src={images[4]} alt="image" className="w-full rounded-lg" />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 my-4 sm:my-0">
             <div>
               <img src={images[1]} alt="image" className="w-full" />
             </div>
