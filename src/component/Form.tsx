@@ -1,14 +1,23 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Form: React.FC = () => {
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const refferedByCode = params.get('ref') || '';
+    setFormData((prevData) => ({
+      ...prevData,
+      refferedByCode
+    }));
+  }, []);
   const [formData, setFormData] = useState({
     clinicName: '',
     doctorName: '',
     branchName: '',
     mobile: '',
+    refferedByCode: '',
     email: '',
     type: '',
   });
@@ -32,6 +41,7 @@ const Form: React.FC = () => {
       },
       branch: [{ branch: formData.branchName }],
       type: formData.type,
+      refferedByCode: formData.refferedByCode,
       approval: 'Approved',
     };
 
@@ -48,17 +58,19 @@ const Form: React.FC = () => {
           doctorName: '',
           branchName: '',
           mobile: '',
+          refferedByCode:'',
           email: '',
           type: '',
         });
         toast.success("Thank you for contacting Us. The Curedesk team will contact you soon");
       }
     } catch (error: any) {
-      if (error.response && error.response.data.message === "User with this mobile No. or Email Id already exist") {
-        toast.error("User with this mobile No. or Email Id already exist");
+      console.log("error",error.response.data.message)
+      if (error.response.data.message === "User with this mobile No. or Email Id already exists") {
+        toast.error(error.response.data.message);
       } else {
         console.log('Error submitting form:', error);
-        toast.error("An error occurred. Please try again.");
+        toast.error(error.response.data.message);
       }
     }
   };
@@ -163,6 +175,20 @@ const Form: React.FC = () => {
           </select>
         </div>
         {/* Other Input Fields */}
+
+        <div className='flex-[0_0_100%] mb-5'>
+          <label htmlFor="refferedByCode" className="font-nunito block text-sm font-bold text-gray-900">Referral Code</label>
+          <input
+            type="text"
+            name="refferedByCode"
+            id="refferedByCode"
+            value={formData.refferedByCode}
+            onChange={handleInputChange}
+            className="mt-1 text-slate-700 bg-white block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            placeholder="Referral Code"
+            readOnly
+          />
+        </div>
         {/* ... */}
 
         {/* Submit Button */}
