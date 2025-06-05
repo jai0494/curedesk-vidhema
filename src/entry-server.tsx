@@ -2,10 +2,14 @@
 import React from 'react'
 import ReactDOMServer from 'react-dom/server' // Server-side rendering module from react-dom library.
 import { StaticRouter } from 'react-router-dom/server'
+import './index.css' // ✅ Tailwind styles included here
 
 // App level imports
 import { Router } from './router'
 import Error, { ErrorProps } from './components/Error'
+import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+import Navbar from './components/Navbar'
 
 /**
   This file uses ReactDOMServer, imported above, to render the application on the server-side. This is useful for SEO purposes, as it allows search engines to crawl the application and index its content. This is potentially useful for performance, as it allows the application to render faster on the client-side.
@@ -25,7 +29,11 @@ export function render({ path, statusCode }: IRenderProps) {
     // The renderToString method, is used to convert React components to an HTML string, which can be sent to the client for initial rendering.
     <React.StrictMode>
       <StaticRouter location={path}>
+         <ScrollToTop />
+      <Navbar />
         <Router />
+                    <Footer />
+
       </StaticRouter>
     </React.StrictMode>
   )

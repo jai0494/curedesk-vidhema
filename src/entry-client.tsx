@@ -6,6 +6,9 @@ import { BrowserRouter } from 'react-router-dom'
 // App level imports
 import { Router } from './router'
 import './index.css'
+import ScrollToTop from './components/ScrollToTop'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 /**
   At a high level, this file is responsible for converting static HTML into dynamic content by attaching event handlers to html elements,(known as hydrating), enabling client-side interactivity for end-users.
@@ -15,7 +18,11 @@ ReactDOM.hydrateRoot(
   document.getElementById('root') as HTMLElement,
   <React.StrictMode>
     <BrowserRouter>
+     <ScrollToTop />
+      <Navbar />
       <Router />
+            <Footer />
+
     </BrowserRouter>
   </React.StrictMode>
 )

@@ -1,14 +1,22 @@
-// Library imports
-import { JSX } from 'react'
+import { headingData } from "../../json/dropdownData";
 
-// App level imports
-import { BaseLayout } from '../../components'
+import FAQsSection from "../../components/FAQsSection";
+import SpecialityBanner from "../../components/SpecialityBanner";
+import FeaturesSectionSpeciality from "../../components/FeaturesSectionSpeciality";
+import StatisticsSection from "../../components/StatisticsSection";
+import ServicesSectionPoint from "../../components/ServicesSectionPoint";
+import TrustedByCompanies from "../../components/TrustedByCompanies";
 
 export const About = (): JSX.Element => {
+  const { heading } = headingData.About.specialityBanner;
+  const {heading1} = headingData.About.specialityBanner1;
   return (
-    <BaseLayout>
-      <h3>About Us</h3>
-      We're all about React server-side rendering 📟.
-    </BaseLayout>
-  )
+    <div>
+        <SpecialityBanner heading={heading} />
+        <FeaturesSectionSpeciality index={3} />
+        <StatisticsSection />
+        <ServicesSectionPoint heading={heading1}/>
+        <TrustedByCompanies /><FAQsSection />
+    </div>
+  );
 }
