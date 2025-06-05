@@ -1,7 +1,6 @@
 // Libraries imports
 import { useState, useEffect } from 'react'
 
-// This component is displayed when the end-user navigates to a non-existent page.
 export interface ErrorProps {
   statusCode?: number
 }
