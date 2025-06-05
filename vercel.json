@@ -11,8 +11,5 @@
       "src": "/(.*)",
       "dest": "/api/index.ts"
     }
-  ],
-  "static": {
-    "directory": "dist/client"
-  }
+  ]
 }
