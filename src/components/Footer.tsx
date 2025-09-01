@@ -35,10 +35,10 @@ const Footer = () => {
               
             </div>
             <div className="text-slate-700 font-nunito mt-4">
-                Powered By: 
+                <!--Powered By: 
                 <a href="https://www.vidhema.com" target="_blank" className="font-normal text-black transition-colors hover:text-primary ml-[4px] font-bold">
                    Vidhema
-                </a>
+                </a>-->
               </div>
           </div>
           <div className="ml-auto w-full md:px-4 md:w-7/12">
